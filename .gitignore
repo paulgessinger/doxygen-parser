@@ -1,3 +1,5 @@
 /venv
 *.egg-info
 *.pyc
+.mypy_cache
+examples/doxygen/*/xml

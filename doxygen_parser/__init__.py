@@ -1,1 +1,1 @@
-from .parser import IndexParser
+from .parser import Parser

@@ -11,6 +11,13 @@ class Test1
       int EVal1,     /**< enum value 1 */
       int EVal2      /**< enum value 2 */
     };
+
+    /// Nested struct right here
+    struct Nested {
+      /// I'm also here
+      bool enabled;
+    };
+
     void member();   //!< a member function.
     
   protected:

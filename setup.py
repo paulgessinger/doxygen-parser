@@ -13,6 +13,7 @@ with open(path.join(here, "doxygen_parser/requirements.txt")) as f:
 
 test_deps = [
     'pytest',
+    'mypy'
 ]
 
 setup(

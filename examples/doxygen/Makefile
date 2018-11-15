@@ -36,6 +36,7 @@ all: class/xml/index.xml \
      autolink/xml/index.xml \
      restypedef/xml/index.xml \
      afterdoc/xml/index.xml \
+     kitchensink/xml/index.xml \
      template/xml/index.xml \
      tag/xml/index.xml \
      group/xml/index.xml \
@@ -111,6 +112,9 @@ restypedef/xml/index.xml: restypedef.cpp restypedef.cfg
 
 afterdoc/xml/index.xml: afterdoc.h afterdoc.cfg
 	$(DOXYGEN) afterdoc.cfg
+
+kitchensink/xml/index.xml: kitchensink.cpp kitchensink.cfg
+	$(DOXYGEN) kitchensink.cfg
 
 template/xml/index.xml: templ.cpp templ.cfg
 	$(DOXYGEN) templ.cfg
