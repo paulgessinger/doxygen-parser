@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_test11" kind="class" language="C++" prot="public">
+    <compoundname>Test11</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Normal text.</para><para><simplesect kind="par"><title>User defined paragraph:</title><para>Contents of the paragraph.</para></simplesect>
+<simplesect kind="par"><title></title><para>New paragraph under the same heading.</para></simplesect>
+<simplesect kind="note"><para>This note consists of two paragraphs. This is the first paragraph.</para></simplesect>
+<simplesect kind="par"><title></title><para>And this is the second paragraph.</para></simplesect>
+More normal text. </para>    </detaileddescription>
+    <location file="par.cpp" line="20" column="1" bodyfile="par.cpp" bodystart="20" bodyend="20"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

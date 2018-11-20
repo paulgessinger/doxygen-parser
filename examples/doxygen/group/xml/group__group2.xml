@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="group__group2" kind="group">
+    <compoundname>group2</compoundname>
+    <title>The Second Group</title>
+    <innerclass refid="class_c3" prot="public">C3</innerclass>
+    <innerclass refid="class_c4" prot="public">C4</innerclass>
+    <innernamespace refid="namespace_n1">N1</innernamespace>
+    <briefdescription>
+<para>This is the second group. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

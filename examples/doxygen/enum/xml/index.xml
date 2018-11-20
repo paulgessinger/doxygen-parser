@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_test4" kind="class"><name>Test4</name>
+    <member refid="class_test4_1ac7ea9f7064f0c30ad1ca2dcac3b1f51f" kind="enum"><name>TEnum</name></member>
+    <member refid="class_test4_1ac7ea9f7064f0c30ad1ca2dcac3b1f51faafc6f02ab538cf6883a3ed8db3227bc2" kind="enumvalue"><name>Val1</name></member>
+    <member refid="class_test4_1ac7ea9f7064f0c30ad1ca2dcac3b1f51fa187b3020293be8c4ecf13845946e311e" kind="enumvalue"><name>Val2</name></member>
+    <member refid="class_test4_1abf88c4792f8617420c3f40111ff80615" kind="enum"><name>AnotherEnum</name></member>
+    <member refid="class_test4_1abf88c4792f8617420c3f40111ff80615a83b2b8751a78770374daf0de8decb025" kind="enumvalue"><name>V1</name></member>
+    <member refid="class_test4_1abf88c4792f8617420c3f40111ff80615aa81495af03db22c853b0a841fba247bb" kind="enumvalue"><name>V2</name></member>
+  </compound>
+  <compound refid="enum_8h" kind="file"><name>enum.h</name>
+  </compound>
+</doxygenindex>

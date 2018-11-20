@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="par_8cpp" kind="file" language="C++">
+    <compoundname>par.cpp</compoundname>
+    <innerclass refid="class_test11" prot="public">Test11</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="20" refid="class_test11" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_test11" kindref="compound">Test11</ref><sp/>{};</highlight></codeline>
+    </programlisting>
+    <location file="par.cpp"/>
+  </compounddef>
+</doxygen>

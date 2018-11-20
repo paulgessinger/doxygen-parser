@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_test8" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Test8</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_test8_1afc3e94e1b9c2b7be213015967621efee" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TEnum</name>
+        <enumvalue id="class_test8_1afc3e94e1b9c2b7be213015967621efeea708e77f8aa5ad98d8be4bfc95d27d797" prot="public">
+          <name>TVal1</name>
+          <briefdescription>
+<para>enum value TVal1. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_test8_1afc3e94e1b9c2b7be213015967621efeeae1eb5e2ec52d169cdaa6ad373917e61e" prot="public">
+          <name>TVal2</name>
+          <briefdescription>
+<para>enum value TVal2. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_test8_1afc3e94e1b9c2b7be213015967621efeeaf1eab1ac0d54636415f8bf01b2ea660d" prot="public">
+          <name>TVal3</name>
+          <briefdescription>
+<para>enum value TVal3. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>An enum. </para>        </briefdescription>
+        <detaileddescription>
+<para>More detailed enum description. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="jdstyle.cpp" line="14" column="1" bodyfile="jdstyle.cpp" bodystart="14" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_test8_1a4bfd35c504fbcc6278e099c788e05f6a" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="class_test8_1afc3e94e1b9c2b7be213015967621efee" kindref="member">Test8::TEnum</ref> *</type>
+        <definition>enum Test8::TEnum 
+       * Test8::enumPtr</definition>
+        <argsstring></argsstring>
+        <name>enumPtr</name>
+        <briefdescription>
+<para>enum pointer. </para>        </briefdescription>
+        <detaileddescription>
+<para>Details. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="jdstyle.cpp" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test8_1a465ad8d5891e405b4d79c8fa11855f85" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="class_test8_1afc3e94e1b9c2b7be213015967621efee" kindref="member">Test8::TEnum</ref></type>
+        <definition>enum Test8::TEnum
+        Test8::enumVar</definition>
+        <argsstring></argsstring>
+        <name>enumVar</name>
+        <briefdescription>
+<para>enum variable. </para>        </briefdescription>
+        <detaileddescription>
+<para>Details. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="jdstyle.cpp" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test8_1a6890649fb0ce362bf09a5806f98b0c54" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Test8::publicVar</definition>
+        <argsstring></argsstring>
+        <name>publicVar</name>
+        <briefdescription>
+<para>a public variable. </para>        </briefdescription>
+        <detaileddescription>
+<para>Details. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="jdstyle.cpp" line="58" column="1" bodyfile="jdstyle.cpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test8_1a8e411d072a06f9888eb14709b2a440d1" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* Test8::handler) (int a, int b)</definition>
+        <argsstring>)(int a, int b)</argsstring>
+        <name>handler</name>
+        <briefdescription>
+<para>a function variable. </para>        </briefdescription>
+        <detaileddescription>
+<para>Details. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="jdstyle.cpp" line="64" column="1" bodyfile="jdstyle.cpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_test8_1a0f9a382dbf23eb5e17a57a01a269d858" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Test8::Test8</definition>
+        <argsstring>()</argsstring>
+        <name>Test8</name>
+        <briefdescription>
+<para>A constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>A more elaborate description of the constructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="jdstyle.cpp" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test8_1a1840045f3a8d85cf58d0504a005f419b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Test8::~Test8</definition>
+        <argsstring>()</argsstring>
+        <name>~Test8</name>
+        <briefdescription>
+<para>A destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>A more elaborate description of the destructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="jdstyle.cpp" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test8_1a8465475248f9e76eac5fe42f8e501712" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Test8::testMe</definition>
+        <argsstring>(int a, const char *s)</argsstring>
+        <name>testMe</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>a normal member taking two arguments and returning an integer value. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an integer argument. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a constant character pointer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_test8_1a0f9a382dbf23eb5e17a57a01a269d858" kindref="member">Test8()</ref> </para></simplesect>
+<simplesect kind="see"><para><ref refid="class_test8_1a1840045f3a8d85cf58d0504a005f419b" kindref="member">~Test8()</ref> </para></simplesect>
+<simplesect kind="see"><para><ref refid="class_test8_1a3ecdfb39182a5d086fd2287b90fda3a4" kindref="member">testMeToo()</ref> </para></simplesect>
+<simplesect kind="see"><para><ref refid="class_test8_1a6890649fb0ce362bf09a5806f98b0c54" kindref="member">publicVar()</ref> </para></simplesect>
+<simplesect kind="return"><para>The test results </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="jdstyle.cpp" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test8_1a3ecdfb39182a5d086fd2287b90fda3a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Test8::testMeToo</definition>
+        <argsstring>(char c1, char c2)=0</argsstring>
+        <name>testMeToo</name>
+        <param>
+          <type>char</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>c2</declname>
+        </param>
+        <briefdescription>
+<para>A pure virtual member. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_test8_1a8465475248f9e76eac5fe42f8e501712" kindref="member">testMe()</ref> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the first argument. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the second argument. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="jdstyle.cpp" line="52" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A test class. </para>    </briefdescription>
+    <detaileddescription>
+<para>A more elaborate class description. </para>    </detaileddescription>
+    <location file="jdstyle.cpp" line="6" column="1" bodyfile="jdstyle.cpp" bodystart="5" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_test8_1a4bfd35c504fbcc6278e099c788e05f6a" prot="public" virt="non-virtual"><scope>Test8</scope><name>enumPtr</name></member>
+      <member refid="class_test8_1a465ad8d5891e405b4d79c8fa11855f85" prot="public" virt="non-virtual"><scope>Test8</scope><name>enumVar</name></member>
+      <member refid="class_test8_1a8e411d072a06f9888eb14709b2a440d1" prot="public" virt="non-virtual"><scope>Test8</scope><name>handler</name></member>
+      <member refid="class_test8_1a6890649fb0ce362bf09a5806f98b0c54" prot="public" virt="non-virtual"><scope>Test8</scope><name>publicVar</name></member>
+      <member refid="class_test8_1afc3e94e1b9c2b7be213015967621efee" prot="public" virt="non-virtual"><scope>Test8</scope><name>TEnum</name></member>
+      <member refid="class_test8_1a0f9a382dbf23eb5e17a57a01a269d858" prot="public" virt="non-virtual"><scope>Test8</scope><name>Test8</name></member>
+      <member refid="class_test8_1a8465475248f9e76eac5fe42f8e501712" prot="public" virt="non-virtual"><scope>Test8</scope><name>testMe</name></member>
+      <member refid="class_test8_1a3ecdfb39182a5d086fd2287b90fda3a4" prot="public" virt="pure-virtual"><scope>Test8</scope><name>testMeToo</name></member>
+      <member refid="class_test8_1afc3e94e1b9c2b7be213015967621efeea708e77f8aa5ad98d8be4bfc95d27d797" prot="public" virt="non-virtual"><scope>Test8</scope><name>TVal1</name></member>
+      <member refid="class_test8_1afc3e94e1b9c2b7be213015967621efeeae1eb5e2ec52d169cdaa6ad373917e61e" prot="public" virt="non-virtual"><scope>Test8</scope><name>TVal2</name></member>
+      <member refid="class_test8_1afc3e94e1b9c2b7be213015967621efeeaf1eab1ac0d54636415f8bf01b2ea660d" prot="public" virt="non-virtual"><scope>Test8</scope><name>TVal3</name></member>
+      <member refid="class_test8_1a1840045f3a8d85cf58d0504a005f419b" prot="public" virt="non-virtual"><scope>Test8</scope><name>~Test8</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

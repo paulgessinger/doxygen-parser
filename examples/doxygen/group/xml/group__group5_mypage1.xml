@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="group__group5_mypage1" kind="page">
+    <compoundname>mypage1</compoundname>
+    <title>This is a section in group 5</title>
+    <briefdescription>
+<para>Text of the first section. </para>    </briefdescription>
+    <detaileddescription>
+<para>Text of the first section </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

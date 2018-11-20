@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespacepyexample" kind="namespace" language="Python">
+    <compoundname>pyexample</compoundname>
+    <innerclass refid="classpyexample_1_1_py_class" prot="public">pyexample::PyClass</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacepyexample_1a2daf35288bc9d0a1d4233ab18b553451" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def pyexample.func</definition>
+        <argsstring>()</argsstring>
+        <name>func</name>
+        <briefdescription>
+<para>Documentation for a function. </para>        </briefdescription>
+        <detaileddescription>
+<para>More details. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pyexample.py" line="9" column="1" bodyfile="pyexample.py" bodystart="9" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Documentation for this module. </para>    </briefdescription>
+    <detaileddescription>
+<para>More details. </para>    </detaileddescription>
+    <location file="pyexample.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

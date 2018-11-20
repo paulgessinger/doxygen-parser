@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classpyexample_1_1_py_class" kind="class" language="Python" prot="public">
+    <compoundname>pyexample::PyClass</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classpyexample_1_1_py_class_1abd17aff54e5b0ca194020c796c733546" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int pyexample.PyClass::classVar</definition>
+        <argsstring></argsstring>
+        <name>classVar</name>
+        <initializer>=  0;</initializer>
+        <briefdescription>
+<para>A class variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pyexample.py" line="27" column="1" bodyfile="pyexample.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpyexample_1_1_py_class_1a9165738cd516769e4fcd274219e9d255" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>pyexample.PyClass::_memVar</definition>
+        <argsstring></argsstring>
+        <name>_memVar</name>
+        <briefdescription>
+<para>a member variable </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pyexample.py" line="19" column="1" bodyfile="pyexample.py" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpyexample_1_1_py_class_1a87e20fe7e81cb5a1c04e620c076ab8ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def pyexample.PyClass.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+<para>The constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pyexample.py" line="18" column="1" bodyfile="pyexample.py" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classpyexample_1_1_py_class_1a654596774eb28a0c6d26eea565de3a9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def pyexample.PyClass.PyMethod</definition>
+        <argsstring>(self)</argsstring>
+        <name>PyMethod</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+<para>Documentation for a method. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>self</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object pointer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="pyexample.py" line="23" column="1" bodyfile="pyexample.py" bodystart="23" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Documentation for a class. </para>    </briefdescription>
+    <detaileddescription>
+<para>More details. </para>    </detaileddescription>
+    <location file="pyexample.py" line="15" column="1" bodyfile="pyexample.py" bodystart="15" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classpyexample_1_1_py_class_1a87e20fe7e81cb5a1c04e620c076ab8ac" prot="public" virt="non-virtual"><scope>pyexample::PyClass</scope><name>__init__</name></member>
+      <member refid="classpyexample_1_1_py_class_1a9165738cd516769e4fcd274219e9d255" prot="private" virt="non-virtual"><scope>pyexample::PyClass</scope><name>_memVar</name></member>
+      <member refid="classpyexample_1_1_py_class_1abd17aff54e5b0ca194020c796c733546" prot="public" virt="non-virtual"><scope>pyexample::PyClass</scope><name>classVar</name></member>
+      <member refid="classpyexample_1_1_py_class_1a654596774eb28a0c6d26eea565de3a9d" prot="public" virt="non-virtual"><scope>pyexample::PyClass</scope><name>PyMethod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

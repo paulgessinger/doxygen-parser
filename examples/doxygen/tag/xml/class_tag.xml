@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_tag" kind="class" language="C++" prot="public">
+    <compoundname>Tag</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Test13</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tag_1acc641ffae34e2c4c03a6edf0a513be28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tag::example</definition>
+        <argsstring>()</argsstring>
+        <name>example</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>an overloaded member. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tag.cpp" line="8" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A class that is inherited from the external class Test13. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Test13</label>
+      </node>
+      <node id="0">
+        <label>Tag</label>
+        <link refid="class_tag"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Test13</label>
+      </node>
+      <node id="2">
+        <label>Tag</label>
+        <link refid="class_tag"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="tag.cpp" line="5" column="1" bodyfile="tag.cpp" bodystart="4" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_tag_1acc641ffae34e2c4c03a6edf0a513be28" prot="public" virt="non-virtual"><scope>Tag</scope><name>example</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="define_8h" kind="file"><name>define.h</name>
+    <member refid="define_8h_1a996f7be338ccb40d1a2a5abc1ad61759" kind="define"><name>ABS</name></member>
+    <member refid="define_8h_1aacc3ee1a7f283f8ef65cea31f4436a95" kind="define"><name>MAX</name></member>
+    <member refid="define_8h_1a74e75242132eaabbc1c512488a135926" kind="define"><name>MIN</name></member>
+    <member refid="define_8h_1abd386a218b76635edc7428251e1692c7" kind="define"><name>NOARGS</name></member>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="struct_coord_struct" kind="struct" language="C++" prot="public">
+    <compoundname>CoordStruct</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_coord_struct_1a183d7226fc5a8470ce9b9f04f9cb69bb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CoordStruct::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The x coordinate </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restypedef.cpp" line="11" column="1" bodyfile="restypedef.cpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_coord_struct_1a1a5966a881bc3e76e9becf00639585ac" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CoordStruct::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The y coordinate </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restypedef.cpp" line="13" column="1" bodyfile="restypedef.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A coordinate pair. </para>    </detaileddescription>
+    <location file="restypedef.cpp" line="9" column="1" bodyfile="restypedef.cpp" bodystart="8" bodyend="14"/>
+    <listofallmembers>
+      <member refid="struct_coord_struct_1a183d7226fc5a8470ce9b9f04f9cb69bb" prot="public" virt="non-virtual"><scope>CoordStruct</scope><name>x</name></member>
+      <member refid="struct_coord_struct_1a1a5966a881bc3e76e9becf00639585ac" prot="public" virt="non-virtual"><scope>CoordStruct</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_test7" kind="class"><name>Test7</name>
+    <member refid="class_test7_1a4494d03ffc1f276c2ec6bab21f5bd6ef" kind="function"><name>example</name></member>
+  </compound>
+  <compound refid="include_8cpp" kind="file"><name>include.cpp</name>
+  </compound>
+  <compound refid="example" kind="page"><name>example</name>
+  </compound>
+</doxygenindex>

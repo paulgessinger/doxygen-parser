@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_test4" kind="class" language="C++" prot="public">
+    <compoundname>Test4</compoundname>
+    <includes refid="enum_8h" local="no">enum.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_test4_1ac7ea9f7064f0c30ad1ca2dcac3b1f51f" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TEnum</name>
+        <enumvalue id="class_test4_1ac7ea9f7064f0c30ad1ca2dcac3b1f51faafc6f02ab538cf6883a3ed8db3227bc2" prot="public">
+          <name>Val1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>The description of the first enum value. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_test4_1ac7ea9f7064f0c30ad1ca2dcac3b1f51fa187b3020293be8c4ecf13845946e311e" prot="public">
+          <name>Val2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A description of the enum type. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="enum.h" line="4" column="1" bodyfile="enum.h" bodystart="4" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_test4_1abf88c4792f8617420c3f40111ff80615" prot="public" static="no" strong="no">
+        <type></type>
+        <name>AnotherEnum</name>
+        <enumvalue id="class_test4_1abf88c4792f8617420c3f40111ff80615a83b2b8751a78770374daf0de8decb025" prot="public">
+          <name>V1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>value 1 </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_test4_1abf88c4792f8617420c3f40111ff80615aa81495af03db22c853b0a841fba247bb" prot="public">
+          <name>V2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>value 2 </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Another enum, with inline docs </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="enum.h" line="8" column="1" bodyfile="enum.h" bodystart="7" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The class description. </para>    </detaileddescription>
+    <location file="enum.h" line="2" column="1" bodyfile="enum.h" bodystart="1" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_test4_1abf88c4792f8617420c3f40111ff80615" prot="public" virt="non-virtual"><scope>Test4</scope><name>AnotherEnum</name></member>
+      <member refid="class_test4_1ac7ea9f7064f0c30ad1ca2dcac3b1f51f" prot="public" virt="non-virtual"><scope>Test4</scope><name>TEnum</name></member>
+      <member refid="class_test4_1abf88c4792f8617420c3f40111ff80615a83b2b8751a78770374daf0de8decb025" prot="public" virt="non-virtual"><scope>Test4</scope><name>V1</name></member>
+      <member refid="class_test4_1abf88c4792f8617420c3f40111ff80615aa81495af03db22c853b0a841fba247bb" prot="public" virt="non-virtual"><scope>Test4</scope><name>V2</name></member>
+      <member refid="class_test4_1ac7ea9f7064f0c30ad1ca2dcac3b1f51faafc6f02ab538cf6883a3ed8db3227bc2" prot="public" virt="non-virtual"><scope>Test4</scope><name>Val1</name></member>
+      <member refid="class_test4_1ac7ea9f7064f0c30ad1ca2dcac3b1f51fa187b3020293be8c4ecf13845946e311e" prot="public" virt="non-virtual"><scope>Test4</scope><name>Val2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

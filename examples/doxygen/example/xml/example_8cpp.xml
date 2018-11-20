@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="example_8cpp" kind="file" language="C++">
+    <compoundname>example.cpp</compoundname>
+    <innerclass refid="class_test5" prot="public">Test5</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="5" refid="class_test5" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_test5" kindref="compound">Test5</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_test5_1abf3ec2f0f7f2e0d18a212625caa090b7" kindref="member">example</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_test5_1abf3ec2f0f7f2e0d18a212625caa090b7" kindref="member">Test5::example</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="example.cpp"/>
+  </compounddef>
+</doxygen>

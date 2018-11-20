@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="struct_car" kind="struct"><name>Car</name>
+    <member refid="struct_car_1ab8ff28306286da5a8b14fa9bdccaafaa" kind="variable"><name>base</name></member>
+  </compound>
+  <compound refid="struct_object" kind="struct"><name>Object</name>
+    <member refid="struct_object_1a1b6037fba835e83243ababce426ff9af" kind="variable"><name>ref</name></member>
+    <member refid="struct_object_1a71225073d06a793b9a6ea9263ed37b12" kind="function"><name>objRef</name></member>
+    <member refid="struct_object_1a924ee0cecc906d148022b3f0d6325cfb" kind="function"><name>objUnref</name></member>
+  </compound>
+  <compound refid="struct_truck" kind="struct"><name>Truck</name>
+    <member refid="struct_truck_1ad0ac321609dda1a6c552488b05ec7ac8" kind="variable"><name>base</name></member>
+  </compound>
+  <compound refid="struct_vehicle" kind="struct"><name>Vehicle</name>
+    <member refid="struct_vehicle_1ad7970f528d429f6fc1725173e93a77c2" kind="variable"><name>base</name></member>
+    <member refid="struct_vehicle_1a6891d3d28853bc3fdd075596dc6de9f8" kind="function"><name>vehicleStart</name></member>
+    <member refid="struct_vehicle_1a4dcbcba43792dcd673a552b14479ab77" kind="function"><name>vehicleStop</name></member>
+  </compound>
+  <compound refid="manual_8c" kind="file"><name>manual.c</name>
+    <member refid="manual_8c_1a840291bc02cba5474a4cb46a9b9566fe" kind="function"><name>main</name></member>
+  </compound>
+</doxygenindex>

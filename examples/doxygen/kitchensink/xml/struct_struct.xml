@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="struct_struct" kind="struct" language="C++" prot="public">
+    <compoundname>Struct</compoundname>
+    <innerclass refid="struct_struct_1_1_nested" prot="public">Struct::Nested</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="struct_struct_1ae90032914dd1f5c5054206c9d89fbb65" prot="public" static="no" strong="no">
+        <type></type>
+        <name>NestedEnum</name>
+        <enumvalue id="struct_struct_1ae90032914dd1f5c5054206c9d89fbb65a330ecfe29639c8094b3b01240ec96386" prot="public">
+          <name>val1</name>
+          <briefdescription>
+<para>val1 of enum </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="struct_struct_1ae90032914dd1f5c5054206c9d89fbb65a8da40a6658eac902e1036345ad9c5013" prot="public">
+          <name>val2</name>
+          <briefdescription>
+<para>val2 of enum </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>A nested enum. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kitchensink.cpp" line="13" column="1" bodyfile="kitchensink.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_struct_1a13a32cd7d2638339739e1dcd851c55a6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Struct::variable</definition>
+        <argsstring></argsstring>
+        <name>variable</name>
+        <briefdescription>
+<para>a variable </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kitchensink.cpp" line="4" column="1" bodyfile="kitchensink.cpp" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_struct_1a1b7e5e4e9d5c5a12e9ecb7494047910f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Struct::public_method</definition>
+        <argsstring>(double arg) const</argsstring>
+        <name>public_method</name>
+        <param>
+          <type>double</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+<para>A public method. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>arg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An argument </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kitchensink.cpp" line="22" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="struct_struct_1a37f78d319cef131d92052c8a882f2393" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Struct::protected_method</definition>
+        <argsstring>(bool arg)</argsstring>
+        <name>protected_method</name>
+        <param>
+          <type>bool</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+<para>A protected method. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kitchensink.cpp" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_struct_1a26690216d5ca64507b4a6098f97b0b04" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Struct::protected_method_const</definition>
+        <argsstring>(bool arg) const</argsstring>
+        <name>protected_method_const</name>
+        <param>
+          <type>bool</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+<para>A protected const method. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kitchensink.cpp" line="28" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_struct_1a10c9d6ac4c3d2b3050898b18d0002d23" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Struct::private_method</definition>
+        <argsstring>(bool arg)</argsstring>
+        <name>private_method</name>
+        <param>
+          <type>bool</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+<para>A private method. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kitchensink.cpp" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_struct_1a206dd78e4885206de8125e7f8a545382" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Struct::private_method_const</definition>
+        <argsstring>(bool arg) const</argsstring>
+        <name>private_method_const</name>
+        <param>
+          <type>bool</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+<para>A private const method. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kitchensink.cpp" line="34" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A struct. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="kitchensink.cpp" line="2" column="1" bodyfile="kitchensink.cpp" bodystart="2" bodyend="35"/>
+    <listofallmembers>
+      <member refid="struct_struct_1ae90032914dd1f5c5054206c9d89fbb65" prot="public" virt="non-virtual"><scope>Struct</scope><name>NestedEnum</name></member>
+      <member refid="struct_struct_1a10c9d6ac4c3d2b3050898b18d0002d23" prot="private" virt="non-virtual"><scope>Struct</scope><name>private_method</name></member>
+      <member refid="struct_struct_1a206dd78e4885206de8125e7f8a545382" prot="private" virt="non-virtual"><scope>Struct</scope><name>private_method_const</name></member>
+      <member refid="struct_struct_1a37f78d319cef131d92052c8a882f2393" prot="protected" virt="non-virtual"><scope>Struct</scope><name>protected_method</name></member>
+      <member refid="struct_struct_1a26690216d5ca64507b4a6098f97b0b04" prot="protected" virt="non-virtual"><scope>Struct</scope><name>protected_method_const</name></member>
+      <member refid="struct_struct_1a1b7e5e4e9d5c5a12e9ecb7494047910f" prot="public" virt="non-virtual"><scope>Struct</scope><name>public_method</name></member>
+      <member refid="struct_struct_1ae90032914dd1f5c5054206c9d89fbb65a330ecfe29639c8094b3b01240ec96386" prot="public" virt="non-virtual"><scope>Struct</scope><name>val1</name></member>
+      <member refid="struct_struct_1ae90032914dd1f5c5054206c9d89fbb65a8da40a6658eac902e1036345ad9c5013" prot="public" virt="non-virtual"><scope>Struct</scope><name>val2</name></member>
+      <member refid="struct_struct_1a13a32cd7d2638339739e1dcd851c55a6" prot="public" virt="non-virtual"><scope>Struct</scope><name>variable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

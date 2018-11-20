@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="classdocstring_1_1_py_class" kind="class"><name>docstring::PyClass</name>
+    <member refid="classdocstring_1_1_py_class_1a45ced0d4bfe82f1f5df00bdb7a19aa0f" kind="variable"><name>_memVar</name></member>
+    <member refid="classdocstring_1_1_py_class_1a00dd800dc15e2b727e2a37c6f6c40e8b" kind="function"><name>__init__</name></member>
+    <member refid="classdocstring_1_1_py_class_1af092e1eacc10334e0e8630531a3473b4" kind="function"><name>PyMethod</name></member>
+  </compound>
+  <compound refid="namespacedocstring" kind="namespace"><name>docstring</name>
+    <member refid="namespacedocstring_1aec1a168f6e16b33f87fe6a37b9208957" kind="function"><name>func</name></member>
+  </compound>
+  <compound refid="docstring_8py" kind="file"><name>docstring.py</name>
+  </compound>
+</doxygenindex>

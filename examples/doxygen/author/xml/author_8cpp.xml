@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="author_8cpp" kind="file" language="C++">
+    <compoundname>author.cpp</compoundname>
+    <innerclass refid="class_windows_n_t" prot="public">WindowsNT</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="14" refid="class_windows_n_t" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_windows_n_t" kindref="compound">WindowsNT</ref><sp/>{};</highlight></codeline>
+    </programlisting>
+    <location file="author.cpp"/>
+  </compounddef>
+</doxygen>

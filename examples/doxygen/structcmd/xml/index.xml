@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="structcmd_8h" kind="file"><name>structcmd.h</name>
+    <member refid="structcmd_8h_1afa99ec4acc4ecb2dc3c2d05da15d0e3f" kind="define"><name>MAX</name></member>
+    <member refid="structcmd_8h_1ae1e6edbbc26d6fbc71a90190d0266018" kind="typedef"><name>UINT32</name></member>
+    <member refid="structcmd_8h_1ad65a8842cc674e3ddf69355898c0ecbf" kind="variable"><name>errno</name></member>
+    <member refid="structcmd_8h_1a2c4414339f388561554c2deab11a1a07" kind="function"><name>open</name></member>
+    <member refid="structcmd_8h_1ae152484c890a24e4d9b4980e7b965be0" kind="function"><name>close</name></member>
+    <member refid="structcmd_8h_1af2a3ea719b83f672637febdd87c36c36" kind="function"><name>write</name></member>
+    <member refid="structcmd_8h_1a9c7b76d5266903891c803132d51ccb90" kind="function"><name>read</name></member>
+  </compound>
+</doxygenindex>

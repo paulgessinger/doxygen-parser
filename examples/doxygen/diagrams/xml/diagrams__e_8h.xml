@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="diagrams__e_8h" kind="file" language="C++">
+    <compoundname>diagrams_e.h</compoundname>
+    <includes refid="diagrams__d_8h" local="yes">diagrams_d.h</includes>
+    <incdepgraph>
+      <node id="18">
+        <label>diagrams_b.h</label>
+        <link refid="diagrams__b_8h"/>
+      </node>
+      <node id="16">
+        <label>diagrams_d.h</label>
+        <link refid="diagrams__d_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>diagrams_a.h</label>
+        <link refid="diagrams__a_8h"/>
+      </node>
+      <node id="15">
+        <label>diagrams_e.h</label>
+        <link refid="diagrams__e_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_e" prot="public">E</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_DIAGRAM_E_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_DIAGRAM_E_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="diagrams__d_8h" kindref="compound">diagrams_d.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_e" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_e" kindref="compound">E</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_d" kindref="compound">D</ref><sp/>{};</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="diagrams_e.h"/>
+  </compounddef>
+</doxygen>

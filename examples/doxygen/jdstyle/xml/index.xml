@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_test8" kind="class"><name>Test8</name>
+    <member refid="class_test8_1afc3e94e1b9c2b7be213015967621efee" kind="enum"><name>TEnum</name></member>
+    <member refid="class_test8_1afc3e94e1b9c2b7be213015967621efeea708e77f8aa5ad98d8be4bfc95d27d797" kind="enumvalue"><name>TVal1</name></member>
+    <member refid="class_test8_1afc3e94e1b9c2b7be213015967621efeeae1eb5e2ec52d169cdaa6ad373917e61e" kind="enumvalue"><name>TVal2</name></member>
+    <member refid="class_test8_1afc3e94e1b9c2b7be213015967621efeeaf1eab1ac0d54636415f8bf01b2ea660d" kind="enumvalue"><name>TVal3</name></member>
+    <member refid="class_test8_1a4bfd35c504fbcc6278e099c788e05f6a" kind="variable"><name>enumPtr</name></member>
+    <member refid="class_test8_1a465ad8d5891e405b4d79c8fa11855f85" kind="variable"><name>enumVar</name></member>
+    <member refid="class_test8_1a6890649fb0ce362bf09a5806f98b0c54" kind="variable"><name>publicVar</name></member>
+    <member refid="class_test8_1a8e411d072a06f9888eb14709b2a440d1" kind="variable"><name>handler</name></member>
+    <member refid="class_test8_1a0f9a382dbf23eb5e17a57a01a269d858" kind="function"><name>Test8</name></member>
+    <member refid="class_test8_1a1840045f3a8d85cf58d0504a005f419b" kind="function"><name>~Test8</name></member>
+    <member refid="class_test8_1a8465475248f9e76eac5fe42f8e501712" kind="function"><name>testMe</name></member>
+    <member refid="class_test8_1a3ecdfb39182a5d086fd2287b90fda3a4" kind="function"><name>testMeToo</name></member>
+  </compound>
+  <compound refid="jdstyle_8cpp" kind="file"><name>jdstyle.cpp</name>
+  </compound>
+</doxygenindex>

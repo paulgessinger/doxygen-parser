@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_a" kind="class"><name>A</name>
+    <member refid="class_a_1a086d3a4efc697dba0601b9fef3d082ad" kind="variable"><name>m_self</name></member>
+  </compound>
+  <compound refid="class_b" kind="class"><name>B</name>
+    <member refid="class_b_1a26c70b64fe7cf17fcced7755ecff7537" kind="variable"><name>m_a</name></member>
+  </compound>
+  <compound refid="class_c" kind="class"><name>C</name>
+    <member refid="class_c_1a4ef972d28b73ff78eba3ab4f54c3b449" kind="variable"><name>m_d</name></member>
+  </compound>
+  <compound refid="class_d" kind="class"><name>D</name>
+    <member refid="class_d_1a9d877c7aa092f423f2a073f3c62fef9c" kind="variable"><name>m_c</name></member>
+  </compound>
+  <compound refid="class_e" kind="class"><name>E</name>
+  </compound>
+  <compound refid="diagrams__a_8h" kind="file"><name>diagrams_a.h</name>
+  </compound>
+  <compound refid="diagrams__b_8h" kind="file"><name>diagrams_b.h</name>
+  </compound>
+  <compound refid="diagrams__c_8h" kind="file"><name>diagrams_c.h</name>
+  </compound>
+  <compound refid="diagrams__d_8h" kind="file"><name>diagrams_d.h</name>
+  </compound>
+  <compound refid="diagrams__e_8h" kind="file"><name>diagrams_e.h</name>
+  </compound>
+</doxygenindex>

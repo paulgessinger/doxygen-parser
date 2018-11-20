@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classdocstring_1_1_py_class" kind="class" language="Python" prot="public">
+    <compoundname>docstring::PyClass</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdocstring_1_1_py_class_1a45ced0d4bfe82f1f5df00bdb7a19aa0f" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>docstring.PyClass::_memVar</definition>
+        <argsstring></argsstring>
+        <name>_memVar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="docstring.py" line="22" column="1" bodyfile="docstring.py" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdocstring_1_1_py_class_1a00dd800dc15e2b727e2a37c6f6c40e8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def docstring.PyClass.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The constructor.</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="docstring.py" line="20" column="1" bodyfile="docstring.py" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classdocstring_1_1_py_class_1af092e1eacc10334e0e8630531a3473b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def docstring.PyClass.PyMethod</definition>
+        <argsstring>(self)</argsstring>
+        <name>PyMethod</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Documentation for a method.</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="docstring.py" line="24" column="1" bodyfile="docstring.py" bodystart="24" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Documentation for a class.
+
+More details.
+</verbatim> </para>    </detaileddescription>
+    <location file="docstring.py" line="14" column="1" bodyfile="docstring.py" bodystart="14" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classdocstring_1_1_py_class_1a00dd800dc15e2b727e2a37c6f6c40e8b" prot="public" virt="non-virtual"><scope>docstring::PyClass</scope><name>__init__</name></member>
+      <member refid="classdocstring_1_1_py_class_1a45ced0d4bfe82f1f5df00bdb7a19aa0f" prot="private" virt="non-virtual"><scope>docstring::PyClass</scope><name>_memVar</name></member>
+      <member refid="classdocstring_1_1_py_class_1af092e1eacc10334e0e8630531a3473b4" prot="public" virt="non-virtual"><scope>docstring::PyClass</scope><name>PyMethod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

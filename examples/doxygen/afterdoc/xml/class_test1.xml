@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_test1" kind="class" language="C++" prot="public">
+    <compoundname>Test1</compoundname>
+    <includes refid="afterdoc_8h" local="no">afterdoc.h</includes>
+    <innerclass refid="struct_test1_1_1_nested" prot="public">Test1::Nested</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_test1_1a88f2813ebd3396932a311a6dcf0a0dba" prot="public" static="no" strong="no">
+        <type></type>
+        <name>EnumType</name>
+        <enumvalue id="class_test1_1a88f2813ebd3396932a311a6dcf0a0dbaaee7ad99f5ee35c21945cee7fdf9a8d2f" prot="public">
+          <name>EVal1</name>
+          <briefdescription>
+<para>enum value 1 </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_test1_1a88f2813ebd3396932a311a6dcf0a0dbaa628c8d05cab346ec6c1dc46c53eadf0d" prot="public">
+          <name>EVal2</name>
+          <briefdescription>
+<para>enum value 2 </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>An enum type. </para>        </briefdescription>
+        <detaileddescription>
+<para>The documentation block cannot be put after the enum! </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="afterdoc.h" line="10" column="1" bodyfile="afterdoc.h" bodystart="9" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_test1_1a49eba80a9c0131628610d9eeb65b78f2" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Test1::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>an integer value </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="afterdoc.h" line="24" column="1" bodyfile="afterdoc.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_test1_1ad7d590f061d32d4e1a2e22b01c8dcbd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test1::member</definition>
+        <argsstring>()</argsstring>
+        <name>member</name>
+        <briefdescription>
+<para>a member function. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="afterdoc.h" line="21" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A test class </para>    </detaileddescription>
+    <location file="afterdoc.h" line="4" column="1" bodyfile="afterdoc.h" bodystart="3" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_test1_1a88f2813ebd3396932a311a6dcf0a0dba" prot="public" virt="non-virtual"><scope>Test1</scope><name>EnumType</name></member>
+      <member refid="class_test1_1a88f2813ebd3396932a311a6dcf0a0dbaaee7ad99f5ee35c21945cee7fdf9a8d2f" prot="public" virt="non-virtual"><scope>Test1</scope><name>EVal1</name></member>
+      <member refid="class_test1_1a88f2813ebd3396932a311a6dcf0a0dbaa628c8d05cab346ec6c1dc46c53eadf0d" prot="public" virt="non-virtual"><scope>Test1</scope><name>EVal2</name></member>
+      <member refid="class_test1_1ad7d590f061d32d4e1a2e22b01c8dcbd8" prot="public" virt="non-virtual"><scope>Test1</scope><name>member</name></member>
+      <member refid="class_test1_1a49eba80a9c0131628610d9eeb65b78f2" prot="protected" virt="non-virtual"><scope>Test1</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

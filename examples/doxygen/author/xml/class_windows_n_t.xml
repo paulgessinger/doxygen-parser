@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_windows_n_t" kind="class" language="C++" prot="public">
+    <compoundname>WindowsNT</compoundname>
+    <briefdescription>
+<para>Windows Nice Try. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Bill Gates </para></simplesect>
+<simplesect kind="author"><para>Several species of small furry animals gathered together in a cave and grooving with a picture. </para></simplesect>
+<simplesect kind="version"><para>4.0 </para></simplesect>
+<simplesect kind="date"><para>1996-1998 </para></simplesect>
+<xrefsect id="bug_1_bug000001"><xreftitle>Bug</xreftitle><xrefdescription><para>It crashes a lot and requires huge amounts of memory. </para><para>The class introduces the more bugs, the longer it is used. </para></xrefdescription></xrefsect><simplesect kind="warning"><para>This class may explode in your face. </para></simplesect>
+<simplesect kind="warning"><para>If you inherit anything from this class, you&apos;re doomed. </para></simplesect>
+</para>    </detaileddescription>
+    <location file="author.cpp" line="14" column="1" bodyfile="author.cpp" bodystart="14" bodyend="14"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

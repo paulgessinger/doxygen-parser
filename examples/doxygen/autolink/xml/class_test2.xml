@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_test2" kind="class" language="C++" prot="public">
+    <compoundname>Test2</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813" prot="public" static="no" strong="no">
+        <type></type>
+        <name>EType</name>
+        <enumvalue id="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813a6504514811663c6b67772269776ee240" prot="public">
+          <name>Val1</name>
+          <briefdescription>
+<para>enum value 1 </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813a45a4b63269b2a616140b8e9eb8e901a6" prot="public">
+          <name>Val2</name>
+          <briefdescription>
+<para>enum value 2 </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>An enum type. </para>        </briefdescription>
+        <detaileddescription>
+<para>More details </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="autolink.cpp" line="68" column="1" bodyfile="autolink.cpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_test2_1a4f5b3a67c02dc186b69f0dffff135d6e" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Test2::var</definition>
+        <argsstring></argsstring>
+        <name>var</name>
+        <briefdescription>
+<para>A member variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="autolink.cpp" line="74" column="1" bodyfile="autolink.cpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_test2_1acb7e169c1fd3132070a433de79199efd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Test2::Test2</definition>
+        <argsstring>()</argsstring>
+        <name>Test2</name>
+        <briefdescription>
+<para>constructor </para>        </briefdescription>
+        <detaileddescription>
+<para>details. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="autolink.cpp" line="62" column="1" bodyfile="autolink.cpp" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test2_1a05e11afd2c55993f40a7ff6bfee08288" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Test2::~Test2</definition>
+        <argsstring>()</argsstring>
+        <name>~Test2</name>
+        <briefdescription>
+<para>destructor </para>        </briefdescription>
+        <detaileddescription>
+<para>details. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="autolink.cpp" line="63" column="1" bodyfile="autolink.cpp" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test2_1a272a97945e2a9e436fe8ad0b53e1bf0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test2::member</definition>
+        <argsstring>(int)</argsstring>
+        <name>member</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+<para>A member function. </para>        </briefdescription>
+        <detaileddescription>
+<para>Details. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="autolink.cpp" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test2_1aecf851af96d7cf416d418a3a6cc4aa6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test2::member</definition>
+        <argsstring>(int, int)</argsstring>
+        <name>member</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+<para>An overloaded member function. </para>        </briefdescription>
+        <detaileddescription>
+<para>Details </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="autolink.cpp" line="65" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Since this documentation block belongs to the class <ref refid="class_test2" kindref="compound">Test2</ref> no link to <ref refid="class_test2" kindref="compound">Test2</ref> is generated.</para><para>Two ways to link to a constructor are: <ref refid="class_test2" kindref="compound">Test2</ref> and <ref refid="class_test2_1acb7e169c1fd3132070a433de79199efd" kindref="member">Test2()</ref>.</para><para>Links to the destructor are: <ref refid="class_test2_1a05e11afd2c55993f40a7ff6bfee08288" kindref="member">~Test2</ref> and <ref refid="class_test2_1a05e11afd2c55993f40a7ff6bfee08288" kindref="member">~Test2()</ref>.</para><para>A link to a member in this class: <ref refid="class_test2_1a272a97945e2a9e436fe8ad0b53e1bf0d" kindref="member">member()</ref>.</para><para>More specific links to the each of the overloaded members: <ref refid="class_test2_1a272a97945e2a9e436fe8ad0b53e1bf0d" kindref="member">member(int)</ref> and <ref refid="class_test2_1aecf851af96d7cf416d418a3a6cc4aa6b" kindref="member">member(int,int)</ref>.</para><para>A link to the variable <ref refid="class_test2_1a4f5b3a67c02dc186b69f0dffff135d6e" kindref="member">var</ref>.</para><para>A link to the global typedef <ref refid="autolink_8cpp_1ad34f20b9b4b2788e17b8faa3303f4312" kindref="member">Test2TypeDef</ref>.</para><para>A link to the global enumeration type <ref refid="autolink_8cpp_1a656d63cf384d2a6f23c2c18523a7bc5e" kindref="member">GlobEnum</ref>.</para><para>A link to the define <ref refid="autolink_8cpp_1a996f7be338ccb40d1a2a5abc1ad61759" kindref="member">ABS(x)</ref>.</para><para>A link to a variable <ref refid="class_test2_1a4f5b3a67c02dc186b69f0dffff135d6e" kindref="member">using another text</ref> as a link.</para><para>A link to the enumeration type <ref refid="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813" kindref="member">EType</ref>.</para><para>A link to some enumeration values: <ref refid="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813a6504514811663c6b67772269776ee240" kindref="member">Val1 </ref> and <ref refid="autolink_8cpp_1a656d63cf384d2a6f23c2c18523a7bc5ea0f016f49e4f3bcd072319b9d68bc927d" kindref="member">GVal1</ref>.</para><para>And last but not least a link to a file: <ref refid="autolink_8cpp" kindref="compound">autolink.cpp</ref>.</para><para><simplesect kind="see"><para>Inside a see also section any word is checked, so <ref refid="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813" kindref="member">EType</ref>, <ref refid="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813a6504514811663c6b67772269776ee240" kindref="member">Val1</ref>, <ref refid="autolink_8cpp_1a656d63cf384d2a6f23c2c18523a7bc5ea0f016f49e4f3bcd072319b9d68bc927d" kindref="member">GVal1</ref>, <ref refid="class_test2_1a05e11afd2c55993f40a7ff6bfee08288" kindref="member">~Test2</ref> and <ref refid="class_test2_1a272a97945e2a9e436fe8ad0b53e1bf0d" kindref="member">member</ref> will be replaced by links in HTML. </para></simplesect>
+</para>    </detaileddescription>
+    <location file="autolink.cpp" line="60" column="1" bodyfile="autolink.cpp" bodystart="59" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813" prot="public" virt="non-virtual"><scope>Test2</scope><name>EType</name></member>
+      <member refid="class_test2_1a272a97945e2a9e436fe8ad0b53e1bf0d" prot="public" virt="non-virtual"><scope>Test2</scope><name>member</name></member>
+      <member refid="class_test2_1aecf851af96d7cf416d418a3a6cc4aa6b" prot="public" virt="non-virtual"><scope>Test2</scope><name>member</name></member>
+      <member refid="class_test2_1acb7e169c1fd3132070a433de79199efd" prot="public" virt="non-virtual"><scope>Test2</scope><name>Test2</name></member>
+      <member refid="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813a6504514811663c6b67772269776ee240" prot="public" virt="non-virtual"><scope>Test2</scope><name>Val1</name></member>
+      <member refid="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813a45a4b63269b2a616140b8e9eb8e901a6" prot="public" virt="non-virtual"><scope>Test2</scope><name>Val2</name></member>
+      <member refid="class_test2_1a4f5b3a67c02dc186b69f0dffff135d6e" prot="protected" virt="non-virtual"><scope>Test2</scope><name>var</name></member>
+      <member refid="class_test2_1a05e11afd2c55993f40a7ff6bfee08288" prot="public" virt="non-virtual"><scope>Test2</scope><name>~Test2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

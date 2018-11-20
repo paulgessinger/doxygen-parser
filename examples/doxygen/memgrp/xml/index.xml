@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_test9" kind="class"><name>Test9</name>
+    <member refid="class_test9_1a34eb6388874dc23d223dbdaea120c2d8" kind="function"><name>func1InGroup2</name></member>
+    <member refid="class_test9_1a3d32da4784b92f7063747c93e76501c9" kind="function"><name>func2InGroup2</name></member>
+    <member refid="class_test9_1a9dd6a195252d52aaf9deee363c412905" kind="function"><name>func1InGroup1</name></member>
+    <member refid="class_test9_1ada3e98327795384b969ccdf40affb081" kind="function"><name>func2InGroup1</name></member>
+    <member refid="class_test9_1a3cd82baf59bf83a113b7777b48d4b703" kind="function"><name>ungroupedFunction</name></member>
+  </compound>
+  <compound refid="memgrp_8cpp" kind="file"><name>memgrp.cpp</name>
+    <member refid="memgrp_8cpp_1a955f504eccf76b4eb2489c0adab03121" kind="define"><name>A</name></member>
+    <member refid="memgrp_8cpp_1a111da81ae5883147168bbb8366377b10" kind="define"><name>B</name></member>
+    <member refid="memgrp_8cpp_1a36cb413747454fcdba9dd7b8f972fcf3" kind="function"><name>glob_func</name></member>
+  </compound>
+</doxygenindex>

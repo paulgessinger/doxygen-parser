@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_test_interface" kind="interface"><name>TestInterface</name>
+  </compound>
+  <compound refid="interface_8h" kind="file"><name>interface.h</name>
+  </compound>
+</doxygenindex>

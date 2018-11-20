@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classmux__using__with" kind="class" language="VHDL" prot="public">
+    <compoundname>mux_using_with</compoundname>
+    <innerclass refid="classmux__using__with_1_1behavior" prot="private">mux_using_with::behavior</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classmux__using__with_1ad55279dce1eddfcae1b352d3d8fabdc1" prot="public" static="no" mutable="no">
+        <type>in</type>
+        <definition>in din_0std_logic  </definition>
+        <argsstring>std_logic  </argsstring>
+        <name>din_0</name>
+        <briefdescription>
+<para>Mux first input. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mux.vhdl" line="17" column="1" bodyfile="mux.vhdl" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmux__using__with_1a402f19d4cd989053622b5a3b4c1e0d7a" prot="public" static="no" mutable="no">
+        <type>in</type>
+        <definition>in din_1std_logic  </definition>
+        <argsstring>std_logic  </argsstring>
+        <name>din_1</name>
+        <briefdescription>
+<para>Mux Second input. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mux.vhdl" line="18" column="1" bodyfile="mux.vhdl" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmux__using__with_1aee742c30d698f0d63527f641199e15f5" prot="public" static="no" mutable="no">
+        <type>in</type>
+        <definition>in selstd_logic  </definition>
+        <argsstring>std_logic  </argsstring>
+        <name>sel</name>
+        <briefdescription>
+<para>Select input. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mux.vhdl" line="19" column="1" bodyfile="mux.vhdl" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmux__using__with_1a46fc12f10e63a20ae9d4a529dd434302" prot="public" static="no" mutable="no">
+        <type>out</type>
+        <definition>out mux_outstd_logic  </definition>
+        <argsstring>std_logic  </argsstring>
+        <name>mux_out</name>
+        <briefdescription>
+<para>Mux output. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mux.vhdl" line="21" column="1" bodyfile="mux.vhdl" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmux__using__with_1a0a6af6eef40212dbaf130d57ce711256" prot="public" static="no" mutable="no">
+        <type>_library_</type>
+        <definition>_library_ ieeeieee</definition>
+        <argsstring>ieee</argsstring>
+        <name>ieee</name>
+        <briefdescription>
+<para>Use standard library. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mux.vhdl" line="7" column="1" bodyfile="mux.vhdl" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmux__using__with_1acd03516902501cd1c7296a98e22c6fcb" prot="public" static="no" mutable="no">
+        <type>_use_</type>
+        <definition>_use_ std_logic_1164std_logic_1164</definition>
+        <argsstring>std_logic_1164</argsstring>
+        <name>std_logic_1164</name>
+        <briefdescription>
+<para>Use logic elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mux.vhdl" line="9" column="1" bodyfile="mux.vhdl" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Mux entity brief description Detailed description of this mux design element. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="mux.vhdl" line="15" column="1" bodyfile="mux.vhdl" bodystart="15" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classmux__using__with_1ad55279dce1eddfcae1b352d3d8fabdc1" prot="public" virt="non-virtual"><scope>mux_using_with</scope><name>din_0</name></member>
+      <member refid="classmux__using__with_1a402f19d4cd989053622b5a3b4c1e0d7a" prot="public" virt="non-virtual"><scope>mux_using_with</scope><name>din_1</name></member>
+      <member refid="classmux__using__with_1a0a6af6eef40212dbaf130d57ce711256" prot="public" virt="non-virtual"><scope>mux_using_with</scope><name>ieee</name></member>
+      <member refid="classmux__using__with_1a46fc12f10e63a20ae9d4a529dd434302" prot="public" virt="non-virtual"><scope>mux_using_with</scope><name>mux_out</name></member>
+      <member refid="classmux__using__with_1aee742c30d698f0d63527f641199e15f5" prot="public" virt="non-virtual"><scope>mux_using_with</scope><name>sel</name></member>
+      <member refid="classmux__using__with_1acd03516902501cd1c7296a98e22c6fcb" prot="public" virt="non-virtual"><scope>mux_using_with</scope><name>std_logic_1164</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

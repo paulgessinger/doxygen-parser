@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_test3" kind="class" language="C++" prot="public">
+    <compoundname>Test3</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="class.h" line="4" column="1" bodyfile="class.h" bodystart="3" bodyend="5"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

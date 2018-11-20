@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="group__group3" kind="group">
+    <compoundname>group3</compoundname>
+    <title>The Third Group</title>
+    <innerfile refid="group_8cpp">group.cpp</innerfile>
+    <innerclass refid="class_c5" prot="public">C5</innerclass>
+    <innernamespace refid="namespace_n1">N1</innernamespace>
+    <innergroup refid="group__group4">The Fourth Group</innergroup>
+    <briefdescription>
+<para>This is the third group. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

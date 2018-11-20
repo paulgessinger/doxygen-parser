@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="classpyexample_1_1_py_class" kind="class"><name>pyexample::PyClass</name>
+    <member refid="classpyexample_1_1_py_class_1abd17aff54e5b0ca194020c796c733546" kind="variable"><name>classVar</name></member>
+    <member refid="classpyexample_1_1_py_class_1a9165738cd516769e4fcd274219e9d255" kind="variable"><name>_memVar</name></member>
+    <member refid="classpyexample_1_1_py_class_1a87e20fe7e81cb5a1c04e620c076ab8ac" kind="function"><name>__init__</name></member>
+    <member refid="classpyexample_1_1_py_class_1a654596774eb28a0c6d26eea565de3a9d" kind="function"><name>PyMethod</name></member>
+  </compound>
+  <compound refid="namespacepyexample" kind="namespace"><name>pyexample</name>
+    <member refid="namespacepyexample_1a2daf35288bc9d0a1d4233ab18b553451" kind="function"><name>func</name></member>
+  </compound>
+  <compound refid="pyexample_8py" kind="file"><name>pyexample.py</name>
+  </compound>
+</doxygenindex>

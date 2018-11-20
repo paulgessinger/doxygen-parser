@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_a" kind="class" language="C++" prot="public">
+    <compoundname>A</compoundname>
+    <derivedcompoundref refid="class_c" prot="public" virt="non-virtual">C</derivedcompoundref>
+    <derivedcompoundref refid="class_d" prot="protected" virt="virtual">D</derivedcompoundref>
+    <includes refid="diagrams__a_8h" local="no">diagrams_a.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_1a086d3a4efc697dba0601b9fef3d082ad" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a" kindref="compound">A</ref> *</type>
+        <definition>A* A::m_self</definition>
+        <argsstring></argsstring>
+        <name>m_self</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="diagrams_a.h" line="3" column="1" bodyfile="diagrams_a.h" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>A</label>
+        <link refid="class_a"/>
+      </node>
+      <node id="1">
+        <label>C</label>
+        <link refid="class_c"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>D</label>
+        <link refid="class_d"/>
+        <childnode refid="0" relation="protected-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>E</label>
+        <link refid="class_e"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>A</label>
+        <link refid="class_a"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_self</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="diagrams_a.h" line="3" column="1" bodyfile="diagrams_a.h" bodystart="3" bodyend="3"/>
+    <listofallmembers>
+      <member refid="class_a_1a086d3a4efc697dba0601b9fef3d082ad" prot="public" virt="non-virtual"><scope>A</scope><name>m_self</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

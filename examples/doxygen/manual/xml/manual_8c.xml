@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="manual_8c" kind="file" language="C++">
+    <compoundname>manual.c</compoundname>
+    <innerclass refid="struct_object" prot="public">Object</innerclass>
+    <innerclass refid="struct_vehicle" prot="public">Vehicle</innerclass>
+    <innerclass refid="struct_car" prot="public">Car</innerclass>
+    <innerclass refid="struct_truck" prot="public">Truck</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="manual_8c_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Main function.</para><para>Ref <ref refid="struct_vehicle_1a6891d3d28853bc3fdd075596dc6de9f8" kindref="member">vehicleStart()</ref>, <ref refid="struct_object_1a71225073d06a793b9a6ea9263ed37b12" kindref="member">objRef()</ref>, <ref refid="struct_object_1a924ee0cecc906d148022b3f0d6325cfb" kindref="member">objUnref()</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="manual.c" line="82" column="1" bodyfile="manual.c" bodystart="82" bodyend="86"/>
+        <references refid="struct_vehicle_1a6891d3d28853bc3fdd075596dc6de9f8">Vehicle::vehicleStart</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="5"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_object" kindref="compound">Object</ref><sp/><ref refid="struct_object" kindref="compound">Object</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_vehicle" kindref="compound">Vehicle</ref><sp/><ref refid="struct_vehicle" kindref="compound">Vehicle</ref>;<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_car" kindref="compound">Car</ref><sp/><ref refid="struct_car" kindref="compound">Car</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_truck" kindref="compound">Truck</ref><sp/><ref refid="struct_truck" kindref="compound">Truck</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="struct_object" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_object" kindref="compound">Object</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15" refid="struct_object_1a1b6037fba835e83243ababce426ff9af" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_object_1a1b6037fba835e83243ababce426ff9af" kindref="member">ref</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="struct_object" kindref="compound">Object</ref><sp/>*<sp/><ref refid="struct_object_1a71225073d06a793b9a6ea9263ed37b12" kindref="member">objRef</ref>(<ref refid="struct_object" kindref="compound">Object</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="struct_object" kindref="compound">Object</ref><sp/>*<sp/><ref refid="struct_object_1a924ee0cecc906d148022b3f0d6325cfb" kindref="member">objUnref</ref>(<ref refid="struct_object" kindref="compound">Object</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="struct_vehicle" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_vehicle" kindref="compound">Vehicle</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39" refid="struct_vehicle_1ad7970f528d429f6fc1725173e93a77c2" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="struct_object" kindref="compound">Object</ref><sp/><ref refid="struct_vehicle_1ad7970f528d429f6fc1725173e93a77c2" kindref="member">base</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_vehicle_1a6891d3d28853bc3fdd075596dc6de9f8" kindref="member">vehicleStart</ref>(<ref refid="struct_vehicle" kindref="compound">Vehicle</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_vehicle_1a4dcbcba43792dcd673a552b14479ab77" kindref="member">vehicleStop</ref>(<ref refid="struct_vehicle" kindref="compound">Vehicle</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="struct_car" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_car" kindref="compound">Car</ref></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63" refid="struct_car_1ab8ff28306286da5a8b14fa9bdccaafaa" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="struct_vehicle" kindref="compound">Vehicle</ref><sp/><ref refid="struct_car_1ab8ff28306286da5a8b14fa9bdccaafaa" kindref="member">base</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="struct_truck" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_truck" kindref="compound">Truck</ref></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73" refid="struct_truck_1ad0ac321609dda1a6c552488b05ec7ac8" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="struct_vehicle" kindref="compound">Vehicle</ref><sp/><ref refid="struct_truck_1ad0ac321609dda1a6c552488b05ec7ac8" kindref="member">base</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="manual_8c_1a840291bc02cba5474a4cb46a9b9566fe" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="manual_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><ref refid="struct_car" kindref="compound">Car</ref><sp/>c;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><ref refid="struct_vehicle_1a6891d3d28853bc3fdd075596dc6de9f8" kindref="member">vehicleStart</ref>((<ref refid="struct_vehicle" kindref="compound">Vehicle</ref>*)<sp/>&amp;c);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="manual.c"/>
+  </compounddef>
+</doxygen>

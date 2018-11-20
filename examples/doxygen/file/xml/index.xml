@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="file_8h" kind="file"><name>file.h</name>
+    <member refid="file_8h_1a4a86bef4b6181cb3f53bd0461a9a511b" kind="variable"><name>globalValue</name></member>
+  </compound>
+</doxygenindex>

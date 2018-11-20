@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="struct_test1_1_1_nested" kind="struct"><name>Test1::Nested</name>
+    <member refid="struct_test1_1_1_nested_1a5a1047c41d21f0daa58a68145ddbb21b" kind="variable"><name>enabled</name></member>
+  </compound>
+  <compound refid="class_test1" kind="class"><name>Test1</name>
+    <member refid="class_test1_1a88f2813ebd3396932a311a6dcf0a0dba" kind="enum"><name>EnumType</name></member>
+    <member refid="class_test1_1a88f2813ebd3396932a311a6dcf0a0dbaaee7ad99f5ee35c21945cee7fdf9a8d2f" kind="enumvalue"><name>EVal1</name></member>
+    <member refid="class_test1_1a88f2813ebd3396932a311a6dcf0a0dbaa628c8d05cab346ec6c1dc46c53eadf0d" kind="enumvalue"><name>EVal2</name></member>
+    <member refid="class_test1_1a49eba80a9c0131628610d9eeb65b78f2" kind="variable"><name>value</name></member>
+    <member refid="class_test1_1ad7d590f061d32d4e1a2e22b01c8dcbd8" kind="function"><name>member</name></member>
+  </compound>
+  <compound refid="afterdoc_8h" kind="file"><name>afterdoc.h</name>
+  </compound>
+</doxygenindex>

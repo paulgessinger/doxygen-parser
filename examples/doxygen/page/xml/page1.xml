@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="page1" kind="page">
+    <compoundname>page1</compoundname>
+    <title>A documentation page</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Leading text. </para><sect1 id="page1_1sec">
+<title>An example section</title>
+<para>This page contains the subsections <ref refid="page1_1subsection1" kindref="member">The first subsection</ref> and <ref refid="page1_1subsection2" kindref="member">The second subsection</ref>. For more info see page <ref refid="page2" kindref="compound">Another page</ref>. </para><sect2 id="page1_1subsection1">
+<title>The first subsection</title>
+<para>Text. </para></sect2>
+<sect2 id="page1_1subsection2">
+<title>The second subsection</title>
+<para>More text. </para></sect2>
+</sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

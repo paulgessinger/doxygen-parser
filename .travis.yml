@@ -1,0 +1,15 @@
+sudo: required
+dist: xenial
+language: python
+
+matrix:
+  include:
+    - python: 3.6
+      env: TOXENV=begin,py36,end
+    - python: 3.7
+      env: TOXENV=begin,py37,end
+
+install: pip install tox python-coveralls
+script: tox
+after_success:
+  - coveralls

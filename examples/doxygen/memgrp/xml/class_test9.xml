@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_test9" kind="class" language="C++" prot="public">
+    <compoundname>Test9</compoundname>
+      <sectiondef kind="user-defined">
+      <header>Group2</header>
+      <description><para>Description of group 2. </para></description>
+      <memberdef kind="function" id="class_test9_1a34eb6388874dc23d223dbdaea120c2d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test9::func1InGroup2</definition>
+        <argsstring>()</argsstring>
+        <name>func1InGroup2</name>
+        <briefdescription>
+<para>Function 1 in group 2. </para>        </briefdescription>
+        <detaileddescription>
+<para>Details. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="memgrp.cpp" line="13" column="1" bodyfile="memgrp.cpp" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test9_1a3d32da4784b92f7063747c93e76501c9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test9::func2InGroup2</definition>
+        <argsstring>()</argsstring>
+        <name>func2InGroup2</name>
+        <briefdescription>
+<para>Function 2 in group 2. </para>        </briefdescription>
+        <detaileddescription>
+<para>Details. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="memgrp.cpp" line="15" column="1" bodyfile="memgrp.cpp" bodystart="26" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="class_test9_1a9dd6a195252d52aaf9deee363c412905" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test9::func1InGroup1</definition>
+        <argsstring>()</argsstring>
+        <name>func1InGroup1</name>
+        <briefdescription>
+<para>Same documentation for both members. </para>        </briefdescription>
+        <detaileddescription>
+<para>Details </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="memgrp.cpp" line="7" column="1" bodyfile="memgrp.cpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test9_1ada3e98327795384b969ccdf40affb081" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test9::func2InGroup1</definition>
+        <argsstring>()</argsstring>
+        <name>func2InGroup1</name>
+        <briefdescription>
+<para>Same documentation for both members. </para>        </briefdescription>
+        <detaileddescription>
+<para>Details </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="memgrp.cpp" line="8" column="1" bodyfile="memgrp.cpp" bodystart="19" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_test9_1a3cd82baf59bf83a113b7777b48d4b703" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test9::ungroupedFunction</definition>
+        <argsstring>()</argsstring>
+        <name>ungroupedFunction</name>
+        <briefdescription>
+<para>Function without group. </para>        </briefdescription>
+        <detaileddescription>
+<para>Details. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="memgrp.cpp" line="12" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A class. </para>    </briefdescription>
+    <detaileddescription>
+<para>Details </para>    </detaileddescription>
+    <location file="memgrp.cpp" line="3" column="1" bodyfile="memgrp.cpp" bodystart="2" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_test9_1a9dd6a195252d52aaf9deee363c412905" prot="public" virt="non-virtual"><scope>Test9</scope><name>func1InGroup1</name></member>
+      <member refid="class_test9_1a34eb6388874dc23d223dbdaea120c2d8" prot="public" virt="non-virtual"><scope>Test9</scope><name>func1InGroup2</name></member>
+      <member refid="class_test9_1ada3e98327795384b969ccdf40affb081" prot="public" virt="non-virtual"><scope>Test9</scope><name>func2InGroup1</name></member>
+      <member refid="class_test9_1a3d32da4784b92f7063747c93e76501c9" prot="protected" virt="non-virtual"><scope>Test9</scope><name>func2InGroup2</name></member>
+      <member refid="class_test9_1a3cd82baf59bf83a113b7777b48d4b703" prot="public" virt="non-virtual"><scope>Test9</scope><name>ungroupedFunction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
