@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="struct_n_s1_1_1_class2_1_1_another_nested" kind="struct" language="C++" prot="private">
+    <compoundname>NS1::Class2::AnotherNested</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_n_s1_1_1_class2_1_1_another_nested_1a305b077774efa5dfd6448a90bc878643" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double NS1::Class2::AnotherNested::limit</definition>
+        <argsstring></argsstring>
+        <name>limit</name>
+        <briefdescription>
+<para>limit variable </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kitchensink.cpp" line="59" column="1" bodyfile="kitchensink.cpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>More nesting. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="kitchensink.cpp" line="57" column="1" bodyfile="kitchensink.cpp" bodystart="57" bodyend="60"/>
+    <listofallmembers>
+      <member refid="struct_n_s1_1_1_class2_1_1_another_nested_1a305b077774efa5dfd6448a90bc878643" prot="public" virt="non-virtual"><scope>NS1::Class2::AnotherNested</scope><name>limit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

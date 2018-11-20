@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_test10" kind="class" language="C++" prot="public">
+    <compoundname>Test10</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_test10_1afe74a6b8f7769d44c65bd0d0025a6d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test10::drawRect</definition>
+        <argsstring>(int, int, int, int)</argsstring>
+        <name>drawRect</name>
+        <param>
+          <type>int</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>y</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>w</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>h</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This command draws a rectangle with a left upper corner at ( <emphasis>x</emphasis> , <emphasis>y</emphasis> ), width <emphasis>w</emphasis> and height <emphasis>h</emphasis>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="overload.cpp" line="4" column="1" bodyfile="overload.cpp" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test10_1ae8c683e6bc7faebaf2f4334d9cdffdde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test10::drawRect</definition>
+        <argsstring>(const Rect &amp;r)</argsstring>
+        <name>drawRect</name>
+        <param>
+          <type>const Rect &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="overload.cpp" line="5" column="1" bodyfile="overload.cpp" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A short description. </para>    </briefdescription>
+    <detaileddescription>
+<para>More text. </para>    </detaileddescription>
+    <location file="overload.cpp" line="2" column="1" bodyfile="overload.cpp" bodystart="1" bodyend="6"/>
+    <listofallmembers>
+      <member refid="class_test10_1afe74a6b8f7769d44c65bd0d0025a6d89" prot="public" virt="non-virtual"><scope>Test10</scope><name>drawRect</name></member>
+      <member refid="class_test10_1ae8c683e6bc7faebaf2f4334d9cdffdde" prot="public" virt="non-virtual"><scope>Test10</scope><name>drawRect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

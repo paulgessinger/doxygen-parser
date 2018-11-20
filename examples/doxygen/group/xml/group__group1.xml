@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="group__group1" kind="group">
+    <compoundname>group1</compoundname>
+    <title>The First Group</title>
+    <innerclass refid="class_c1" prot="public">C1</innerclass>
+    <innerclass refid="class_c2" prot="public">C2</innerclass>
+    <innernamespace refid="namespace_n1">N1</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__group1_1ga0fd3137a90144e24d57778c128a88237" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void func1</definition>
+        <argsstring>()</argsstring>
+        <name>func1</name>
+        <briefdescription>
+<para>function in group 1 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="group.cpp" line="13" column="1" bodyfile="group.cpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group1_1ga053929c0809a5f56f7548fd7d9968f31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void func2</definition>
+        <argsstring>()</argsstring>
+        <name>func2</name>
+        <briefdescription>
+<para>another function in group 1 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="group.cpp" line="82" column="1" bodyfile="group.cpp" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group1_1gadbf675591ff057ec48ce35b0d5cdf755" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void func3</definition>
+        <argsstring>()</argsstring>
+        <name>func3</name>
+        <briefdescription>
+<para>yet another function in group 1 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="group.cpp" line="85" column="1" bodyfile="group.cpp" bodystart="85" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is the first group. </para>    </briefdescription>
+    <detaileddescription>
+<para>More documentation for the first group.</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

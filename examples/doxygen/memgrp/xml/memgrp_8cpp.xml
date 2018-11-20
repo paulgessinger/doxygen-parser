@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="memgrp_8cpp" kind="file" language="C++">
+    <compoundname>memgrp.cpp</compoundname>
+    <innerclass refid="class_test9" prot="public">Test9</innerclass>
+      <sectiondef kind="user-defined">
+      <memberdef kind="define" id="memgrp_8cpp_1a955f504eccf76b4eb2489c0adab03121" prot="public" static="no">
+        <name>A</name>
+        <initializer>1</initializer>
+        <briefdescription>
+<para>one description for all members of this group (because DISTRIBUTE_GROUP_DOC is YES in the config file) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="memgrp.cpp" line="38" column="9" bodyfile="memgrp.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="memgrp_8cpp_1a111da81ae5883147168bbb8366377b10" prot="public" static="no">
+        <name>B</name>
+        <initializer>2</initializer>
+        <briefdescription>
+<para>one description for all members of this group (because DISTRIBUTE_GROUP_DOC is YES in the config file) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="memgrp.cpp" line="39" column="9" bodyfile="memgrp.cpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="memgrp_8cpp_1a36cb413747454fcdba9dd7b8f972fcf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void glob_func</definition>
+        <argsstring>()</argsstring>
+        <name>glob_func</name>
+        <briefdescription>
+<para>one description for all members of this group (because DISTRIBUTE_GROUP_DOC is YES in the config file) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="memgrp.cpp" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>docs for this file </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="2" refid="class_test9" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_test9" kindref="compound">Test9</ref></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="6"></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_test9_1a9dd6a195252d52aaf9deee363c412905" kindref="member">func1InGroup1</ref>();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_test9_1ada3e98327795384b969ccdf40affb081" kindref="member">func2InGroup1</ref>();</highlight></codeline>
+<codeline lineno="10"></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_test9_1a3cd82baf59bf83a113b7777b48d4b703" kindref="member">ungroupedFunction</ref>();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_test9_1a34eb6388874dc23d223dbdaea120c2d8" kindref="member">func1InGroup2</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_test9_1a3d32da4784b92f7063747c93e76501c9" kindref="member">func2InGroup2</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_test9_1a9dd6a195252d52aaf9deee363c412905" kindref="member">Test9::func1InGroup1</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_test9_1ada3e98327795384b969ccdf40affb081" kindref="member">Test9::func2InGroup1</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_test9_1a3d32da4784b92f7063747c93e76501c9" kindref="member">Test9::func2InGroup2</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="28"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_test9_1a34eb6388874dc23d223dbdaea120c2d8" kindref="member">Test9::func1InGroup2</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="30"></codeline>
+<codeline lineno="36"><highlight class="preprocessor">#define<sp/>A<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>B<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="memgrp_8cpp_1a36cb413747454fcdba9dd7b8f972fcf3" kindref="member">glob_func</ref>();</highlight></codeline>
+    </programlisting>
+    <location file="memgrp.cpp"/>
+  </compounddef>
+</doxygen>

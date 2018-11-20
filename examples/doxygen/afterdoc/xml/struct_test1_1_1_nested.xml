@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="struct_test1_1_1_nested" kind="struct" language="C++" prot="public">
+    <compoundname>Test1::Nested</compoundname>
+    <includes refid="afterdoc_8h" local="no">afterdoc.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_test1_1_1_nested_1a5a1047c41d21f0daa58a68145ddbb21b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Test1::Nested::enabled</definition>
+        <argsstring></argsstring>
+        <name>enabled</name>
+        <briefdescription>
+<para>I&apos;m also here. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="afterdoc.h" line="18" column="1" bodyfile="afterdoc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="struct_test1_1_1_nested" kindref="compound">Nested</ref> struct right here. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="afterdoc.h" line="16" column="1" bodyfile="afterdoc.h" bodystart="16" bodyend="19"/>
+    <listofallmembers>
+      <member refid="struct_test1_1_1_nested_1a5a1047c41d21f0daa58a68145ddbb21b" prot="public" virt="non-virtual"><scope>Test1::Nested</scope><name>enabled</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

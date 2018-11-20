@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_test6" kind="class"><name>Test6</name>
+    <member refid="class_test6_1ae2c5729149840783cb4d347360cdd0a7" kind="function"><name>member</name></member>
+  </compound>
+  <compound refid="func_8h" kind="file"><name>func.h</name>
+  </compound>
+</doxygenindex>

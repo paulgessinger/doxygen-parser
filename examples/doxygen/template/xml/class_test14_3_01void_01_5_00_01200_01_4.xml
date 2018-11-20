@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_test14_3_01void_01_5_00_01200_01_4" kind="class" language="C++" prot="public">
+    <compoundname>Test14&lt; void *, 200 &gt;</compoundname>
+    <derivedcompoundref refid="class_test14_3_01_t_01_5_01_4" prot="public" virt="non-virtual">Test14&lt; T * &gt;</derivedcompoundref>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_test14_3_01void_01_5_00_01200_01_4_1a3e8c786c94d0e1ec1df49e72123fb902" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Test14&lt; void *, 200 &gt;::Test14</definition>
+        <argsstring>()</argsstring>
+        <name>Test14</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The constructor of the specialization </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="templ.cpp" line="14" column="1" bodyfile="templ.cpp" bodystart="34" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>complete specialization </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>Test14&lt; T * &gt;</label>
+        <link refid="class_test14_3_01_t_01_5_01_4"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Test14&lt; void *, 200 &gt;</label>
+        <link refid="class_test14_3_01void_01_5_00_01200_01_4"/>
+      </node>
+    </inheritancegraph>
+    <location file="templ.cpp" line="12" column="1" bodyfile="templ.cpp" bodystart="11" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_test14_3_01void_01_5_00_01200_01_4_1a3e8c786c94d0e1ec1df49e72123fb902" prot="public" virt="non-virtual"><scope>Test14&lt; void *, 200 &gt;</scope><name>Test14</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

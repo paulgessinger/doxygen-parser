@@ -17,7 +17,7 @@ def xmldir() -> None:
         doxygen_dir = os.path.join(td, "doxygen")
         shutil.copytree(example_dir, doxygen_dir)
 
-        subprocess.check_call(["make"], cwd=doxygen_dir)
+        # subprocess.check_call(["make"], cwd=doxygen_dir)
         yield doxygen_dir
 
 def test_parser_synthetic() -> None:

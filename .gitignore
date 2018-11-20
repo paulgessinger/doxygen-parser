@@ -2,7 +2,7 @@
 *.egg-info
 *.pyc
 .mypy_cache
-examples/doxygen/*/xml
+#examples/doxygen/*/xml
 /.tox
 /.coverage
 /htmlcov

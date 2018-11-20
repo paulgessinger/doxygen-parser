@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_c" kind="class" language="C++" prot="public">
+    <compoundname>C</compoundname>
+    <basecompoundref refid="class_a" prot="public" virt="non-virtual">A</basecompoundref>
+    <includes refid="diagrams__c_8h" local="no">diagrams_c.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_1a4ef972d28b73ff78eba3ab4f54c3b449" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d" kindref="compound">D</ref> *</type>
+        <definition>D* C::m_d</definition>
+        <argsstring></argsstring>
+        <name>m_d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="diagrams_c.h" line="5" column="1" bodyfile="diagrams_c.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="11">
+        <label>A</label>
+        <link refid="class_a"/>
+      </node>
+      <node id="10">
+        <label>C</label>
+        <link refid="class_c"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="13">
+        <label>A</label>
+        <link refid="class_a"/>
+        <childnode refid="13" relation="usage">
+          <edgelabel>m_self</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>B</label>
+        <link refid="class_b"/>
+        <childnode refid="13" relation="usage">
+          <edgelabel>m_a</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>C</label>
+        <link refid="class_c"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>m_d</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>D</label>
+        <link refid="class_d"/>
+        <childnode refid="13" relation="protected-inheritance">
+        </childnode>
+        <childnode refid="15" relation="private-inheritance">
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>m_c</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="diagrams_c.h" line="5" column="1" bodyfile="diagrams_c.h" bodystart="5" bodyend="5"/>
+    <listofallmembers>
+      <member refid="class_c_1a4ef972d28b73ff78eba3ab4f54c3b449" prot="public" virt="non-virtual"><scope>C</scope><name>m_d</name></member>
+      <member refid="class_a_1a086d3a4efc697dba0601b9fef3d082ad" prot="public" virt="non-virtual"><scope>C</scope><name>m_self</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

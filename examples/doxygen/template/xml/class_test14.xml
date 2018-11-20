@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_test14" kind="class" language="C++" prot="public">
+    <compoundname>Test14</compoundname>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>i</declname>
+        <defname>i</defname>
+        <defval>100</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_test14_1a8dce22d7ba831f396af8524deebe34b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Test14&lt; T &gt;::Test14</definition>
+        <argsstring>()</argsstring>
+        <name>Test14</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The constructor of the template class</para><para>The constructor of the partial specialization </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="templ.cpp" line="6" column="1" bodyfile="templ.cpp" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test14_1a6617f93a24f27c3a38655733f737c56e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Test14&lt; T, i &gt;::Test14</definition>
+        <argsstring>(const Test14 &amp;)</argsstring>
+        <name>Test14</name>
+        <param>
+          <type>const <ref refid="class_test14" kindref="compound">Test14</ref> &amp;</type>
+          <defname>t</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The copy constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="templ.cpp" line="7" column="1" bodyfile="templ.cpp" bodystart="28" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A template class </para>    </detaileddescription>
+    <location file="templ.cpp" line="4" column="1" bodyfile="templ.cpp" bodystart="3" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_test14_1a8dce22d7ba831f396af8524deebe34b2" prot="public" virt="non-virtual"><scope>Test14</scope><name>Test14</name></member>
+      <member refid="class_test14_1a6617f93a24f27c3a38655733f737c56e" prot="public" virt="non-virtual"><scope>Test14</scope><name>Test14</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

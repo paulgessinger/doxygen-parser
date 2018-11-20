@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_test10" kind="class"><name>Test10</name>
+    <member refid="class_test10_1afe74a6b8f7769d44c65bd0d0025a6d89" kind="function"><name>drawRect</name></member>
+    <member refid="class_test10_1ae8c683e6bc7faebaf2f4334d9cdffdde" kind="function"><name>drawRect</name></member>
+  </compound>
+  <compound refid="overload_8cpp" kind="file"><name>overload.cpp</name>
+  </compound>
+</doxygenindex>

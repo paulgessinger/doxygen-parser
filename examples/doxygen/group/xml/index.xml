@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_c1" kind="class"><name>C1</name>
+  </compound>
+  <compound refid="class_c2" kind="class"><name>C2</name>
+  </compound>
+  <compound refid="class_c3" kind="class"><name>C3</name>
+  </compound>
+  <compound refid="class_c4" kind="class"><name>C4</name>
+  </compound>
+  <compound refid="class_c5" kind="class"><name>C5</name>
+  </compound>
+  <compound refid="namespace_n1" kind="namespace"><name>N1</name>
+  </compound>
+  <compound refid="group_8cpp" kind="file"><name>group.cpp</name>
+    <member refid="group__group1_1ga0fd3137a90144e24d57778c128a88237" kind="function"><name>func1</name></member>
+    <member refid="group__group1_1ga053929c0809a5f56f7548fd7d9968f31" kind="function"><name>func2</name></member>
+    <member refid="group__group1_1gadbf675591ff057ec48ce35b0d5cdf755" kind="function"><name>func3</name></member>
+  </compound>
+  <compound refid="group__group1" kind="group"><name>group1</name>
+    <member refid="group__group1_1ga0fd3137a90144e24d57778c128a88237" kind="function"><name>func1</name></member>
+    <member refid="group__group1_1ga053929c0809a5f56f7548fd7d9968f31" kind="function"><name>func2</name></member>
+    <member refid="group__group1_1gadbf675591ff057ec48ce35b0d5cdf755" kind="function"><name>func3</name></member>
+  </compound>
+  <compound refid="group__group2" kind="group"><name>group2</name>
+  </compound>
+  <compound refid="group__group3" kind="group"><name>group3</name>
+  </compound>
+  <compound refid="group__group4" kind="group"><name>group4</name>
+  </compound>
+  <compound refid="group__group5" kind="group"><name>group5</name>
+  </compound>
+  <compound refid="group__group5_mypage1" kind="page"><name>mypage1</name>
+  </compound>
+  <compound refid="group__group5_mypage2" kind="page"><name>mypage2</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_test12" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Test12</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_test12_1a2b3cb21572af10ea5e45854956d398e8" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TEnum</name>
+        <enumvalue id="class_test12_1a2b3cb21572af10ea5e45854956d398e8a7597b4e36cc89036624ad02db86eae8d" prot="public">
+          <name>TVal1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Enum value TVal1. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_test12_1a2b3cb21572af10ea5e45854956d398e8a9d20d147d4a6ff1dfa1a9e732696b51e" prot="public">
+          <name>TVal2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Enum value TVal2. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_test12_1a2b3cb21572af10ea5e45854956d398e8a7e37ceaa9b002df36810dc58fd1405b1" prot="public">
+          <name>TVal3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Enum value TVal3. </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>An enum. </para>        </briefdescription>
+        <detaileddescription>
+<para>More detailed enum description. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="qtstyle.cpp" line="12" column="1" bodyfile="qtstyle.cpp" bodystart="12" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_test12_1a3e910a2a7b07c3a3949c9504c98e30c9" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="class_test12_1a2b3cb21572af10ea5e45854956d398e8" kindref="member">Test12::TEnum</ref> *</type>
+        <definition>enum Test12::TEnum
+         * Test12::enumPtr</definition>
+        <argsstring></argsstring>
+        <name>enumPtr</name>
+        <briefdescription>
+<para>Enum pointer. </para>        </briefdescription>
+        <detaileddescription>
+<para>Details. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="qtstyle.cpp" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test12_1a515d3796e9db6bd18c35e78d956a55fd" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="class_test12_1a2b3cb21572af10ea5e45854956d398e8" kindref="member">Test12::TEnum</ref></type>
+        <definition>enum Test12::TEnum
+          Test12::enumVar</definition>
+        <argsstring></argsstring>
+        <name>enumVar</name>
+        <briefdescription>
+<para>Enum variable. </para>        </briefdescription>
+        <detaileddescription>
+<para>Details. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="qtstyle.cpp" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test12_1a11f84e095cd8733f393a3648f540555e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Test12::publicVar</definition>
+        <argsstring></argsstring>
+        <name>publicVar</name>
+        <briefdescription>
+<para>A public variable. </para>        </briefdescription>
+        <detaileddescription>
+<para>Details. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="qtstyle.cpp" line="57" column="1" bodyfile="qtstyle.cpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test12_1a1db407f49e719c770713d31367e1f052" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* Test12::handler) (int a, int b)</definition>
+        <argsstring>)(int a, int b)</argsstring>
+        <name>handler</name>
+        <briefdescription>
+<para>A function variable. </para>        </briefdescription>
+        <detaileddescription>
+<para>Details. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="qtstyle.cpp" line="63" column="1" bodyfile="qtstyle.cpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_test12_1a92ce5d9ff4037a9f461fe31e055e6f8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Test12::Test12</definition>
+        <argsstring>()</argsstring>
+        <name>Test12</name>
+        <briefdescription>
+<para>A constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>A more elaborate description of the constructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="qtstyle.cpp" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test12_1a2af5154272ee1f06869f2c6404d74fc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Test12::~Test12</definition>
+        <argsstring>()</argsstring>
+        <name>~Test12</name>
+        <briefdescription>
+<para>A destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>A more elaborate description of the destructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="qtstyle.cpp" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test12_1ab8a9ac560b5ac8d319095da304100ab2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Test12::testMe</definition>
+        <argsstring>(int a, const char *s)</argsstring>
+        <name>testMe</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>A normal member taking two arguments and returning an integer value. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an integer argument. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a constant character pointer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The test results </para></simplesect>
+<simplesect kind="see"><para><ref refid="class_test12_1a92ce5d9ff4037a9f461fe31e055e6f8d" kindref="member">Test12()</ref>, <ref refid="class_test12_1a2af5154272ee1f06869f2c6404d74fc7" kindref="member">~Test12()</ref>, <ref refid="class_test12_1add714477d4e3695a0c8fdf16b5b4bf12" kindref="member">testMeToo()</ref> and <ref refid="class_test12_1a11f84e095cd8733f393a3648f540555e" kindref="member">publicVar()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="qtstyle.cpp" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test12_1add714477d4e3695a0c8fdf16b5b4bf12" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Test12::testMeToo</definition>
+        <argsstring>(char c1, char c2)=0</argsstring>
+        <name>testMeToo</name>
+        <param>
+          <type>char</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>c2</declname>
+        </param>
+        <briefdescription>
+<para>A pure virtual member. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_test12_1ab8a9ac560b5ac8d319095da304100ab2" kindref="member">testMe()</ref> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the first argument. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the second argument. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="qtstyle.cpp" line="51" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A test class. </para>    </briefdescription>
+    <detaileddescription>
+<para>A more elaborate class description. </para>    </detaileddescription>
+    <location file="qtstyle.cpp" line="7" column="1" bodyfile="qtstyle.cpp" bodystart="6" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_test12_1a3e910a2a7b07c3a3949c9504c98e30c9" prot="public" virt="non-virtual"><scope>Test12</scope><name>enumPtr</name></member>
+      <member refid="class_test12_1a515d3796e9db6bd18c35e78d956a55fd" prot="public" virt="non-virtual"><scope>Test12</scope><name>enumVar</name></member>
+      <member refid="class_test12_1a1db407f49e719c770713d31367e1f052" prot="public" virt="non-virtual"><scope>Test12</scope><name>handler</name></member>
+      <member refid="class_test12_1a11f84e095cd8733f393a3648f540555e" prot="public" virt="non-virtual"><scope>Test12</scope><name>publicVar</name></member>
+      <member refid="class_test12_1a2b3cb21572af10ea5e45854956d398e8" prot="public" virt="non-virtual"><scope>Test12</scope><name>TEnum</name></member>
+      <member refid="class_test12_1a92ce5d9ff4037a9f461fe31e055e6f8d" prot="public" virt="non-virtual"><scope>Test12</scope><name>Test12</name></member>
+      <member refid="class_test12_1ab8a9ac560b5ac8d319095da304100ab2" prot="public" virt="non-virtual"><scope>Test12</scope><name>testMe</name></member>
+      <member refid="class_test12_1add714477d4e3695a0c8fdf16b5b4bf12" prot="public" virt="pure-virtual"><scope>Test12</scope><name>testMeToo</name></member>
+      <member refid="class_test12_1a2b3cb21572af10ea5e45854956d398e8a7597b4e36cc89036624ad02db86eae8d" prot="public" virt="non-virtual"><scope>Test12</scope><name>TVal1</name></member>
+      <member refid="class_test12_1a2b3cb21572af10ea5e45854956d398e8a9d20d147d4a6ff1dfa1a9e732696b51e" prot="public" virt="non-virtual"><scope>Test12</scope><name>TVal2</name></member>
+      <member refid="class_test12_1a2b3cb21572af10ea5e45854956d398e8a7e37ceaa9b002df36810dc58fd1405b1" prot="public" virt="non-virtual"><scope>Test12</scope><name>TVal3</name></member>
+      <member refid="class_test12_1a2af5154272ee1f06869f2c6404d74fc7" prot="public" virt="non-virtual"><scope>Test12</scope><name>~Test12</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespacedocstring" kind="namespace" language="Python">
+    <compoundname>docstring</compoundname>
+    <innerclass refid="classdocstring_1_1_py_class" prot="public">docstring::PyClass</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacedocstring_1aec1a168f6e16b33f87fe6a37b9208957" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def docstring.func</definition>
+        <argsstring>()</argsstring>
+        <name>func</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Documentation for a function.
+
+More details.
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="docstring.py" line="7" column="1" bodyfile="docstring.py" bodystart="7" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>@package docstring
+Documentation for this module.
+
+More details.
+</verbatim> </para>    </detaileddescription>
+    <location file="docstring.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="enum_8h" kind="file" language="C++">
+    <compoundname>enum.h</compoundname>
+    <innerclass refid="class_test4" prot="public">Test4</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="class_test4" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_test4" kindref="compound">Test4</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="4" refid="class_test4_1ac7ea9f7064f0c30ad1ca2dcac3b1f51faafc6f02ab538cf6883a3ed8db3227bc2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="class_test4_1ac7ea9f7064f0c30ad1ca2dcac3b1f51f" kindref="member">TEnum</ref><sp/>{<sp/><ref refid="class_test4_1ac7ea9f7064f0c30ad1ca2dcac3b1f51faafc6f02ab538cf6883a3ed8db3227bc2" kindref="member">Val1</ref>,<sp/>Val2<sp/>};</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_test4_1abf88c4792f8617420c3f40111ff80615" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="class_test4_1abf88c4792f8617420c3f40111ff80615" kindref="member">AnotherEnum</ref><sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight></codeline>
+<codeline lineno="9" refid="class_test4_1abf88c4792f8617420c3f40111ff80615a83b2b8751a78770374daf0de8decb025" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_test4_1abf88c4792f8617420c3f40111ff80615a83b2b8751a78770374daf0de8decb025" kindref="member">V1</ref>,<sp/></highlight></codeline>
+<codeline lineno="10" refid="class_test4_1abf88c4792f8617420c3f40111ff80615aa81495af03db22c853b0a841fba247bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_test4_1abf88c4792f8617420c3f40111ff80615aa81495af03db22c853b0a841fba247bb" kindref="member">V2</ref><sp/><sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="enum.h"/>
+  </compounddef>
+</doxygen>

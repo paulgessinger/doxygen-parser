@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="file_8h" kind="file" language="C++">
+    <compoundname>file.h</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="file_8h_1a4a86bef4b6181cb3f53bd0461a9a511b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int globalValue</definition>
+        <argsstring></argsstring>
+        <name>globalValue</name>
+        <briefdescription>
+<para>A global integer value. </para>        </briefdescription>
+        <detaileddescription>
+<para>More details about this value. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="file.h" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A brief file description. </para>    </briefdescription>
+    <detaileddescription>
+<para>A more elaborated file description. </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="file_8h_1a4a86bef4b6181cb3f53bd0461a9a511b" kindref="member">globalValue</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="file.h"/>
+  </compounddef>
+</doxygen>

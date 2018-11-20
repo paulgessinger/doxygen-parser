@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="group__group4" kind="group">
+    <compoundname>group4</compoundname>
+    <title>The Fourth Group</title>
+    <innernamespace refid="namespace_n1">N1</innernamespace>
+    <briefdescription>
+<para>Group 4 is a subgroup of group 3. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

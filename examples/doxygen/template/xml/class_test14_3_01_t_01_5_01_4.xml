@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_test14_3_01_t_01_5_01_4" kind="class" language="C++" prot="public">
+    <compoundname>Test14&lt; T * &gt;</compoundname>
+    <basecompoundref refid="class_test14_3_01void_01_5_00_01200_01_4" prot="public" virt="non-virtual">Test14&lt; void *, 200 &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_test14_3_01_t_01_5_01_4_1afabd2f6ed4b21f2d3af205028d14f3de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Test14&lt; T * &gt;::Test14</definition>
+        <argsstring>()</argsstring>
+        <name>Test14</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="templ.cpp" line="21" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A partial template specialization </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Test14&lt; T * &gt;</label>
+        <link refid="class_test14_3_01_t_01_5_01_4"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Test14&lt; void *, 200 &gt;</label>
+        <link refid="class_test14_3_01void_01_5_00_01200_01_4"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>Test14&lt; T * &gt;</label>
+        <link refid="class_test14_3_01_t_01_5_01_4"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Test14&lt; void *, 200 &gt;</label>
+        <link refid="class_test14_3_01void_01_5_00_01200_01_4"/>
+      </node>
+    </collaborationgraph>
+    <location file="templ.cpp" line="19" column="1" bodyfile="templ.cpp" bodystart="18" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_test14_3_01_t_01_5_01_4_1afabd2f6ed4b21f2d3af205028d14f3de" prot="public" virt="non-virtual"><scope>Test14&lt; T * &gt;</scope><name>Test14</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

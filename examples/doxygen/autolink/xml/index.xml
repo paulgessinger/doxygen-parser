@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_test2" kind="class"><name>Test2</name>
+    <member refid="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813" kind="enum"><name>EType</name></member>
+    <member refid="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813a6504514811663c6b67772269776ee240" kind="enumvalue"><name>Val1</name></member>
+    <member refid="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813a45a4b63269b2a616140b8e9eb8e901a6" kind="enumvalue"><name>Val2</name></member>
+    <member refid="class_test2_1a4f5b3a67c02dc186b69f0dffff135d6e" kind="variable"><name>var</name></member>
+    <member refid="class_test2_1acb7e169c1fd3132070a433de79199efd" kind="function"><name>Test2</name></member>
+    <member refid="class_test2_1a05e11afd2c55993f40a7ff6bfee08288" kind="function"><name>~Test2</name></member>
+    <member refid="class_test2_1a272a97945e2a9e436fe8ad0b53e1bf0d" kind="function"><name>member</name></member>
+    <member refid="class_test2_1aecf851af96d7cf416d418a3a6cc4aa6b" kind="function"><name>member</name></member>
+  </compound>
+  <compound refid="autolink_8cpp" kind="file"><name>autolink.cpp</name>
+    <member refid="autolink_8cpp_1a996f7be338ccb40d1a2a5abc1ad61759" kind="define"><name>ABS</name></member>
+    <member refid="autolink_8cpp_1a656d63cf384d2a6f23c2c18523a7bc5e" kind="enum"><name>GlobEnum</name></member>
+    <member refid="autolink_8cpp_1a656d63cf384d2a6f23c2c18523a7bc5ea0f016f49e4f3bcd072319b9d68bc927d" kind="enumvalue"><name>GVal1</name></member>
+    <member refid="autolink_8cpp_1a656d63cf384d2a6f23c2c18523a7bc5ea811876e2eea5c16ae0594a95d98fbd55" kind="enumvalue"><name>GVal2</name></member>
+    <member refid="autolink_8cpp_1ad34f20b9b4b2788e17b8faa3303f4312" kind="typedef"><name>Test2TypeDef</name></member>
+    <member refid="autolink_8cpp_1a88d0bae800d600a11d7bd60f0bc4b858" kind="variable"><name>globVar</name></member>
+  </compound>
+</doxygenindex>

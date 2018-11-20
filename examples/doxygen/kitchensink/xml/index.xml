@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="struct_n_s1_1_1_class2_1_1_another_nested" kind="struct"><name>NS1::Class2::AnotherNested</name>
+    <member refid="struct_n_s1_1_1_class2_1_1_another_nested_1a305b077774efa5dfd6448a90bc878643" kind="variable"><name>limit</name></member>
+  </compound>
+  <compound refid="class_n_s1_1_1_class2" kind="class"><name>NS1::Class2</name>
+    <member refid="class_n_s1_1_1_class2_1a4a7e868ef0784a4379c7fa0ef1e08710" kind="function"><name>init</name></member>
+  </compound>
+  <compound refid="struct_struct_1_1_nested" kind="struct"><name>Struct::Nested</name>
+    <member refid="struct_struct_1_1_nested_1a3cc82bc1f6fb44681e0883683d3597e6" kind="variable"><name>variable</name></member>
+  </compound>
+  <compound refid="struct_struct" kind="struct"><name>Struct</name>
+    <member refid="struct_struct_1ae90032914dd1f5c5054206c9d89fbb65" kind="enum"><name>NestedEnum</name></member>
+    <member refid="struct_struct_1ae90032914dd1f5c5054206c9d89fbb65a330ecfe29639c8094b3b01240ec96386" kind="enumvalue"><name>val1</name></member>
+    <member refid="struct_struct_1ae90032914dd1f5c5054206c9d89fbb65a8da40a6658eac902e1036345ad9c5013" kind="enumvalue"><name>val2</name></member>
+    <member refid="struct_struct_1a13a32cd7d2638339739e1dcd851c55a6" kind="variable"><name>variable</name></member>
+    <member refid="struct_struct_1a1b7e5e4e9d5c5a12e9ecb7494047910f" kind="function"><name>public_method</name></member>
+    <member refid="struct_struct_1a37f78d319cef131d92052c8a882f2393" kind="function"><name>protected_method</name></member>
+    <member refid="struct_struct_1a26690216d5ca64507b4a6098f97b0b04" kind="function"><name>protected_method_const</name></member>
+    <member refid="struct_struct_1a10c9d6ac4c3d2b3050898b18d0002d23" kind="function"><name>private_method</name></member>
+    <member refid="struct_struct_1a206dd78e4885206de8125e7f8a545382" kind="function"><name>private_method_const</name></member>
+  </compound>
+  <compound refid="namespace_n_s1" kind="namespace"><name>NS1</name>
+    <member refid="namespace_n_s1_1a0019e78d45f21bdfd1122c10a5062164" kind="function"><name>namespaced_function</name></member>
+  </compound>
+  <compound refid="kitchensink_8cpp" kind="file"><name>kitchensink.cpp</name>
+    <member refid="kitchensink_8cpp_1a8ee0859aec3d99a95c530036f43dcd65" kind="enum"><name>GlobalEnum</name></member>
+    <member refid="kitchensink_8cpp_1a8ee0859aec3d99a95c530036f43dcd65aac3be7f524346a6556a7bb3f921a75d9" kind="enumvalue"><name>val1</name></member>
+    <member refid="kitchensink_8cpp_1a8ee0859aec3d99a95c530036f43dcd65a98df112eb0ac529e788e36757e858c41" kind="enumvalue"><name>val2</name></member>
+    <member refid="kitchensink_8cpp_1a245099e0041bc267b4bb0beb732d3c7d" kind="function"><name>global_function</name></member>
+  </compound>
+</doxygenindex>

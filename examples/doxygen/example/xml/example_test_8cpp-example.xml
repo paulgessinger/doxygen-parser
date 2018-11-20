@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="example_test_8cpp-example" kind="example">
+    <compoundname>example_test.cpp</compoundname>
+    <briefdescription>
+<para>This is an example of how to use the <ref refid="class_test5" kindref="compound">Test5</ref> class. </para>    </briefdescription>
+    <detaileddescription>
+<para>This is an example of how to use the <ref refid="class_test5" kindref="compound">Test5</ref> class.More details about this example. <programlisting filename="example_test.cpp"><codeline><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>main()</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>Test7<sp/>t;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>t.example();</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

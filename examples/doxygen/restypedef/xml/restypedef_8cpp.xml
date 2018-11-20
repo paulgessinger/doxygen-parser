@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="restypedef_8cpp" kind="file" language="C++">
+    <compoundname>restypedef.cpp</compoundname>
+    <innerclass refid="struct_coord_struct" prot="public">CoordStruct</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="restypedef_8cpp_1a013489fb99c6a5b012db8ec66544a507" prot="public" static="no">
+        <type><ref refid="struct_coord_struct" kindref="compound">CoordStruct</ref></type>
+        <definition>typedef CoordStruct Coord</definition>
+        <argsstring></argsstring>
+        <name>Coord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a type name for <ref refid="struct_coord_struct" kindref="compound">CoordStruct</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restypedef.cpp" line="17" column="1" bodyfile="restypedef.cpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="restypedef_8cpp_1a102acaaa258e937adf910898c6133545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="restypedef_8cpp_1a013489fb99c6a5b012db8ec66544a507" kindref="member">Coord</ref></type>
+        <definition>Coord add</definition>
+        <argsstring>(Coord c1, Coord c2)</argsstring>
+        <name>add</name>
+        <param>
+          <type><ref refid="restypedef_8cpp_1a013489fb99c6a5b012db8ec66544a507" kindref="member">Coord</ref></type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type><ref refid="restypedef_8cpp_1a013489fb99c6a5b012db8ec66544a507" kindref="member">Coord</ref></type>
+          <declname>c2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns the addition of <emphasis>c1</emphasis> and <emphasis>c2</emphasis>, i.e: (c1.x+c2.x,c1.y+c2.y) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="restypedef.cpp" line="23" column="1" bodyfile="restypedef.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An example of resolving typedefs. </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="8" refid="struct_coord_struct" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_coord_struct" kindref="compound">CoordStruct</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_coord_struct_1a183d7226fc5a8470ce9b9f04f9cb69bb" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_coord_struct_1a1a5966a881bc3e76e9becf00639585ac" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct_coord_struct" kindref="compound">CoordStruct</ref><sp/><ref refid="restypedef_8cpp_1a013489fb99c6a5b012db8ec66544a507" kindref="member">Coord</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><ref refid="struct_coord_struct" kindref="compound">Coord</ref><sp/><ref refid="restypedef_8cpp_1a102acaaa258e937adf910898c6133545" kindref="member">add</ref>(<ref refid="struct_coord_struct" kindref="compound">Coord</ref><sp/>c1,<ref refid="struct_coord_struct" kindref="compound">Coord</ref><sp/>c2)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="restypedef.cpp"/>
+  </compounddef>
+</doxygen>

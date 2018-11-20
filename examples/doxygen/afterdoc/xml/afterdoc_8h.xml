@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="afterdoc_8h" kind="file" language="C++">
+    <compoundname>afterdoc.h</compoundname>
+    <innerclass refid="class_test1" prot="public">Test1</innerclass>
+    <innerclass refid="struct_test1_1_1_nested" prot="public">Test1::Nested</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="3" refid="class_test1" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_test1" kindref="compound">Test1</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9" refid="class_test1_1a88f2813ebd3396932a311a6dcf0a0dba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="class_test1_1a88f2813ebd3396932a311a6dcf0a0dba" kindref="member">EnumType</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11" refid="class_test1_1a88f2813ebd3396932a311a6dcf0a0dbaaee7ad99f5ee35c21945cee7fdf9a8d2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_test1_1a88f2813ebd3396932a311a6dcf0a0dbaaee7ad99f5ee35c21945cee7fdf9a8d2f" kindref="member">EVal1</ref>,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12" refid="class_test1_1a88f2813ebd3396932a311a6dcf0a0dbaa628c8d05cab346ec6c1dc46c53eadf0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_test1_1a88f2813ebd3396932a311a6dcf0a0dbaa628c8d05cab346ec6c1dc46c53eadf0d" kindref="member">EVal2</ref><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="struct_test1_1_1_nested" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_test1_1_1_nested" kindref="compound">Nested</ref><sp/>{</highlight></codeline>
+<codeline lineno="18" refid="struct_test1_1_1_nested_1a5a1047c41d21f0daa58a68145ddbb21b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_test1_1_1_nested_1a5a1047c41d21f0daa58a68145ddbb21b" kindref="member">enabled</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_test1_1ad7d590f061d32d4e1a2e22b01c8dcbd8" kindref="member">member</ref>();<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24" refid="class_test1_1a49eba80a9c0131628610d9eeb65b78f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_test1_1a49eba80a9c0131628610d9eeb65b78f2" kindref="member">value</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="afterdoc.h"/>
+  </compounddef>
+</doxygen>

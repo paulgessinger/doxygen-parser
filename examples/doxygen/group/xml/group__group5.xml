@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="group__group5" kind="group">
+    <compoundname>group5</compoundname>
+    <title>The Fifth Group</title>
+    <innerpage refid="group__group5_mypage1">This is a section in group 5</innerpage>
+    <innerpage refid="group__group5_mypage2">This is another section in group 5</innerpage>
+    <briefdescription>
+<para>This is the fifth group. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

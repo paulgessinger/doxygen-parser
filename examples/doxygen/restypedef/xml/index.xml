@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="struct_coord_struct" kind="struct"><name>CoordStruct</name>
+    <member refid="struct_coord_struct_1a183d7226fc5a8470ce9b9f04f9cb69bb" kind="variable"><name>x</name></member>
+    <member refid="struct_coord_struct_1a1a5966a881bc3e76e9becf00639585ac" kind="variable"><name>y</name></member>
+  </compound>
+  <compound refid="restypedef_8cpp" kind="file"><name>restypedef.cpp</name>
+    <member refid="restypedef_8cpp_1a013489fb99c6a5b012db8ec66544a507" kind="typedef"><name>Coord</name></member>
+    <member refid="restypedef_8cpp_1a102acaaa258e937adf910898c6133545" kind="function"><name>add</name></member>
+  </compound>
+</doxygenindex>

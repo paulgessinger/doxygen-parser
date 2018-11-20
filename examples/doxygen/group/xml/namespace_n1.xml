@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_n1" kind="namespace" language="C++">
+    <compoundname>N1</compoundname>
+    <briefdescription>
+<para><linebreak/>
+namespace <ref refid="namespace_n1" kindref="compound">N1</ref> is in four groups </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="group__group1" kindref="compound">The first group</ref>, <ref refid="group__group2" kindref="compound">The Second Group</ref>, <ref refid="group__group3" kindref="compound">The Third Group</ref>, <ref refid="group__group4" kindref="compound">The Fourth Group</ref></para></simplesect>
+Also see <ref refid="group__group5" kindref="compound">This is another section in group 5</ref> </para>    </detaileddescription>
+    <location file="group.cpp" line="53" column="1"/>
+  </compounddef>
+</doxygen>

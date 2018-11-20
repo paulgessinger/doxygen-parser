@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="group_8cpp" kind="file" language="C++">
+    <compoundname>group.cpp</compoundname>
+    <innerclass refid="class_c1" prot="public">C1</innerclass>
+    <innerclass refid="class_c2" prot="public">C2</innerclass>
+    <innerclass refid="class_c3" prot="public">C3</innerclass>
+    <innerclass refid="class_c4" prot="public">C4</innerclass>
+    <innerclass refid="class_c5" prot="public">C5</innerclass>
+    <innernamespace refid="namespace_n1">N1</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__group1_1ga0fd3137a90144e24d57778c128a88237" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void func1</definition>
+        <argsstring>()</argsstring>
+        <name>func1</name>
+        <briefdescription>
+<para>function in group 1 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="group.cpp" line="13" column="1" bodyfile="group.cpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group1_1ga053929c0809a5f56f7548fd7d9968f31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void func2</definition>
+        <argsstring>()</argsstring>
+        <name>func2</name>
+        <briefdescription>
+<para>another function in group 1 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="group.cpp" line="82" column="1" bodyfile="group.cpp" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group1_1gadbf675591ff057ec48ce35b0d5cdf755" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void func3</definition>
+        <argsstring>()</argsstring>
+        <name>func3</name>
+        <briefdescription>
+<para>yet another function in group 1 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="group.cpp" line="85" column="1" bodyfile="group.cpp" bodystart="85" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>this file in group 3 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="7" refid="class_c1" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c1" kindref="compound">C1</ref><sp/>{};</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_c2" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c2" kindref="compound">C2</ref><sp/>{};</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group1_1ga0fd3137a90144e24d57778c128a88237" kindref="member">func1</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>end<sp/>of<sp/>group1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="class_c3" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c3" kindref="compound">C3</ref><sp/>{};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_c4" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c4" kindref="compound">C4</ref><sp/>{};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="class_c5" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c5" kindref="compound">C5</ref><sp/>{};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="namespace_n1" refkind="compound"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_n1" kindref="compound">N1</ref><sp/>{};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>end<sp/>of<sp/>group5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group1_1ga053929c0809a5f56f7548fd7d9968f31" kindref="member">func2</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group1_1gadbf675591ff057ec48ce35b0d5cdf755" kindref="member">func3</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>end<sp/>of<sp/>group1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="group.cpp"/>
+  </compounddef>
+</doxygen>

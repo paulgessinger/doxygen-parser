@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classmux__using__with_1_1behavior" kind="class" language="VHDL" prot="private">
+    <compoundname>mux_using_with::behavior</compoundname>
+    <briefdescription>
+<para>Architecture definition of the MUX. </para>    </briefdescription>
+    <detaileddescription>
+<para>More details about this mux element. </para>    </detaileddescription>
+    <location file="mux.vhdl" line="26" column="1" bodyfile="mux.vhdl" bodystart="26" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

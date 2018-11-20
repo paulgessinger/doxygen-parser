@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="autolink_8cpp" kind="file" language="C++">
+    <compoundname>autolink.cpp</compoundname>
+    <innerclass refid="class_test2" prot="public">Test2</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="autolink_8cpp_1a996f7be338ccb40d1a2a5abc1ad61759" prot="public" static="no">
+        <name>ABS</name>
+        <param><defname>x</defname></param>
+        <initializer>(((x)&gt;0)?(x):-(x))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A macro definition. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="autolink.cpp" line="95" column="9" bodyfile="autolink.cpp" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="autolink_8cpp_1a656d63cf384d2a6f23c2c18523a7bc5e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>GlobEnum</name>
+        <enumvalue id="autolink_8cpp_1a656d63cf384d2a6f23c2c18523a7bc5ea0f016f49e4f3bcd072319b9d68bc927d" prot="public">
+          <name>GVal1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>global enum value 1 </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="autolink_8cpp_1a656d63cf384d2a6f23c2c18523a7bc5ea811876e2eea5c16ae0594a95d98fbd55" prot="public">
+          <name>GVal2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>global enum value 2 </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A global enum. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="autolink.cpp" line="87" column="1" bodyfile="autolink.cpp" bodystart="87" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="autolink_8cpp_1ad34f20b9b4b2788e17b8faa3303f4312" prot="public" static="no">
+        <type><ref refid="class_test2" kindref="compound">Test2</ref></type>
+        <definition>typedef Test2 Test2TypeDef</definition>
+        <argsstring></argsstring>
+        <name>Test2TypeDef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A type definition. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="autolink.cpp" line="97" column="1" bodyfile="autolink.cpp" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="autolink_8cpp_1a88d0bae800d600a11d7bd60f0bc4b858" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int globVar</definition>
+        <argsstring></argsstring>
+        <name>globVar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A global variable. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="autolink.cpp" line="84" column="1" bodyfile="autolink.cpp" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Testing automatic link generation.</para><para>A link to a member of the <ref refid="class_test2" kindref="compound">Test2</ref> class: <ref refid="class_test2_1a272a97945e2a9e436fe8ad0b53e1bf0d" kindref="member">Test2::member</ref>,</para><para>More specific links to the each of the overloaded members: <ref refid="class_test2_1a272a97945e2a9e436fe8ad0b53e1bf0d" kindref="member">Test2::member(int)</ref> and <ref refid="class_test2_1aecf851af96d7cf416d418a3a6cc4aa6b" kindref="member">Test2::member(int,int)</ref></para><para>A link to a protected member variable of <ref refid="class_test2" kindref="compound">Test2</ref>: <ref refid="class_test2_1a4f5b3a67c02dc186b69f0dffff135d6e" kindref="member">Test2::var</ref>,</para><para>A link to the global variable <ref refid="autolink_8cpp_1a88d0bae800d600a11d7bd60f0bc4b858" kindref="member">globVar</ref>.</para><para>A link to the global enumeration type <ref refid="autolink_8cpp_1a656d63cf384d2a6f23c2c18523a7bc5e" kindref="member">GlobEnum</ref>.</para><para>A link to the define <ref refid="autolink_8cpp_1a996f7be338ccb40d1a2a5abc1ad61759" kindref="member">ABS(x)</ref>.</para><para>A link to the destructor of the <ref refid="class_test2" kindref="compound">Test2</ref> class: <ref refid="class_test2_1a05e11afd2c55993f40a7ff6bfee08288" kindref="member">Test2::~Test2</ref>,</para><para>A link to the typedef <ref refid="autolink_8cpp_1ad34f20b9b4b2788e17b8faa3303f4312" kindref="member">Test2TypeDef</ref>.</para><para>A link to the enumeration type <ref refid="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813" kindref="member">Test2::EType</ref></para><para>A link to some enumeration values <ref refid="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813a6504514811663c6b67772269776ee240" kindref="member">Test2::Val1</ref> and <ref refid="autolink_8cpp_1a656d63cf384d2a6f23c2c18523a7bc5ea811876e2eea5c16ae0594a95d98fbd55" kindref="member">GVal2</ref> </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="59" refid="class_test2" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_test2" kindref="compound">Test2</ref></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_test2_1acb7e169c1fd3132070a433de79199efd" kindref="member">Test2</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><ref refid="class_test2_1a05e11afd2c55993f40a7ff6bfee08288" kindref="member">~Test2</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_test2_1a272a97945e2a9e436fe8ad0b53e1bf0d" kindref="member">member</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_test2_1a272a97945e2a9e436fe8ad0b53e1bf0d" kindref="member">member</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813" kindref="member">EType</ref><sp/>{<sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813a6504514811663c6b67772269776ee240" kindref="member">Val1</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_test2_1ae1dbb4a297f954f5ef144a795d8c4813a45a4b63269b2a616140b8e9eb8e901a6" kindref="member">Val2</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>};<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_test2_1a4f5b3a67c02dc186b69f0dffff135d6e" kindref="member">var</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><ref refid="class_test2_1acb7e169c1fd3132070a433de79199efd" kindref="member">Test2::Test2</ref>()<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><ref refid="class_test2_1a05e11afd2c55993f40a7ff6bfee08288" kindref="member">Test2::~Test2</ref>()<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="autolink_8cpp_1a88d0bae800d600a11d7bd60f0bc4b858" kindref="member">globVar</ref>;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="autolink_8cpp_1a656d63cf384d2a6f23c2c18523a7bc5e" kindref="member">GlobEnum</ref><sp/>{<sp/></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="autolink_8cpp_1a656d63cf384d2a6f23c2c18523a7bc5ea0f016f49e4f3bcd072319b9d68bc927d" kindref="member">GVal1</ref>,<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="autolink_8cpp_1a656d63cf384d2a6f23c2c18523a7bc5ea811876e2eea5c16ae0594a95d98fbd55" kindref="member">GVal2</ref><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="preprocessor">#define<sp/>ABS(x)<sp/>(((x)&gt;0)?(x):-(x))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="class_test2" kindref="compound">Test2</ref><sp/><ref refid="autolink_8cpp_1ad34f20b9b4b2788e17b8faa3303f4312" kindref="member">Test2TypeDef</ref>;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="autolink.cpp"/>
+  </compounddef>
+</doxygen>

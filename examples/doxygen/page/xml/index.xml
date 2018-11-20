@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="page_8doc" kind="file"><name>page.doc</name>
+  </compound>
+  <compound refid="page1" kind="page"><name>page1</name>
+  </compound>
+  <compound refid="page2" kind="page"><name>page2</name>
+  </compound>
+</doxygenindex>

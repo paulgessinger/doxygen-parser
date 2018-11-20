@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_n_s1_1_1_class2" kind="class" language="C++" prot="public">
+    <compoundname>NS1::Class2</compoundname>
+    <innerclass refid="struct_n_s1_1_1_class2_1_1_another_nested" prot="private">NS1::Class2::AnotherNested</innerclass>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_n_s1_1_1_class2_1a4a7e868ef0784a4379c7fa0ef1e08710" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NS1::Class2::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+<para>Another member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kitchensink.cpp" line="54" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>I am a namespaced class. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="kitchensink.cpp" line="52" column="1" bodyfile="kitchensink.cpp" bodystart="52" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_n_s1_1_1_class2_1a4a7e868ef0784a4379c7fa0ef1e08710" prot="private" virt="non-virtual"><scope>NS1::Class2</scope><name>init</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
