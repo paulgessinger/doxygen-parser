@@ -3,3 +3,5 @@
 *.pyc
 .mypy_cache
 examples/doxygen/*/xml
+/.tox
+/.coverage
