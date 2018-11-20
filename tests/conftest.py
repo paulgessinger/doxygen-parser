@@ -17,5 +17,5 @@ if os.getenv("DOXYGEN_PARSER_NO_LXML", "False") != "True":
 # type: ignore
 def patch_etree(monkeypatch, request):
     monkeypatch.setattr("doxygen_parser.xml.etree", request.param)
-    print("ETree:", request.param.__name__)
+    #print("ETree:", request.param.__name__)
     yield

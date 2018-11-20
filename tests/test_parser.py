@@ -6,19 +6,33 @@ import pytest
 import tempfile
 import shutil
 import subprocess
+from unittest import mock
+from unittest.mock import Mock
 
 example_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "examples", "doxygen"))
 
 @pytest.fixture(scope="module")
 def xmldir() -> None:
     with tempfile.TemporaryDirectory() as td:
-        # td = "/tmp/dox"
-
         doxygen_dir = os.path.join(td, "doxygen")
         shutil.copytree(example_dir, doxygen_dir)
 
         subprocess.check_call(["make"], cwd=doxygen_dir)
         yield doxygen_dir
+
+def test_parser_synthetic() -> None:
+    index = mock.Mock()
+    index.__iter__ = Mock(return_value=iter([]))
+    load = Mock(return_value=index)
+    with mock.patch("doxygen_parser.parser.Parser._load", load):
+        p = Parser(xmldir="NONE")
+
+        node = Mock()
+        node.attrib = {"refid": "REFID", "kind": "INVALID"}
+        node.find = Mock(return_value="NOTNONE")
+
+        with pytest.raises(ValueError):
+            p._handle_compound(node)
 
 def test_parser_index_kitchensink(xmldir) -> None:
     index = os.path.join(xmldir, "kitchensink", "xml")
