@@ -9,5 +9,7 @@ matrix:
     - python: 3.7
       env: TOXENV=begin,py37,end
 
-install: pip install tox
+install: pip install tox python-coveralls
 script: tox
+after_success:
+  - coveralls
