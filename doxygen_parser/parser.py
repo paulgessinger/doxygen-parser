@@ -1,11 +1,10 @@
+from .entities import Compound, Entity, Class, File, Struct, Namespace
 from . import xml
-from .entities import *
 import os
-from typing import List, Union
+from typing import List, Dict
 
 class ParserBase:
     def __init__(self, xmldir : str):
-        print("ParserBase go")
         self._xmldir = xmldir
 
     def _reffile(self, refid : str) -> str:
@@ -13,8 +12,6 @@ class ParserBase:
 
     def _load(self, refid : str) -> xml.NodeType:
         return xml.etree.parse(self._reffile(refid)).getroot()
-
-# Compound = Union[Class, Struct, File]
 
 class Parser(ParserBase):
     def __init__(self, xmldir : str):

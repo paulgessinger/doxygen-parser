@@ -1,6 +1,7 @@
 import enum
-from typing import List, Any, Optional, Union, Dict, cast
+from typing import List, Any, Optional, Union, Dict
 from . import xml
+from .doc import DocItem
 
 
 class Access(enum.Enum):
@@ -88,6 +89,12 @@ class Entity:
 
     def __str__(self) -> str:
         return self.__repr__()
+
+
+    # access to doxygen doc
+    @property
+    def doc(self) -> DocItem:
+        return DocItem(self._node, self)
 
 
 def entity_factory(node: xml.NodeType,

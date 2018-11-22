@@ -1,6 +1,6 @@
 from doxygen_parser.entities import *
 import pytest
-from unittest.mock import Mock, MagicMock
+from unittest.mock import Mock, MagicMock, patch, PropertyMock
 
 
 # from doxygen_parser import xml
@@ -15,8 +15,13 @@ def test_parse_access() -> None:
 
 def test_entity() -> None:
     node = Mock()
-    parent = Mock(name="PARENT")
+    node.name = "ENTITY"
+    parent = Mock()
+    parent.name = "PARENT"
     parent.fqn = parent.name
+
+
+    nameprop = PropertyMock(return_value=node.name)
 
     e1 = Entity(node, {})
     assert e1.parent is None
@@ -28,18 +33,36 @@ def test_entity() -> None:
     with pytest.raises(NotImplementedError):
         e1.refid
 
-    p2 = Mock()
-    p2.name = "ENTITY"
-    p2.fqn = "ENTITY"
-    entities = {
-        parent.name: parent,
-        p2.name: p2
-    }
-    e2 = Entity(node, entities, parent)
-    assert e2.parent == parent
+    with patch("doxygen_parser.entities.Entity.name", nameprop):
+        p2 = Mock()
+        p2.name = "PARENT2"
+        p2.fqn = "PARENT2"
+        entities = {
+            parent.name: parent,
+            p2.name: p2
+        }
+        e2 = Entity(node, entities, parent)
+        assert e2.parent == parent
+        assert e2.name == "ENTITY"
+        assert e2.fqn == "PARENT::ENTITY"
 
-    e2.parent = p2.name
-    assert e2.parent == p2
+        e2.parent = p2.name
+        assert e2.parent == p2
+        assert e2.name == "ENTITY"
+        assert e2.fqn == "PARENT2::ENTITY"
+
+
+def test_entity_get_docitem() -> None:
+    parent = Mock()
+    parent.fqn = "PARENT"
+    parent.name = "PARENT"
+    node = Mock()
+
+    entities = {parent.name: parent}
+    e = Entity(node, entities, parent)
+
+    di = e.doc
+    assert type(di) == DocItem
 
 
 def test_member_factory() -> None:
